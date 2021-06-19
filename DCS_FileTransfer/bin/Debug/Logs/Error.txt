@@ -1,0 +1,6 @@
+09/23/2016 11:29:43 AM  TransferFileToFTP(): Runtime error Cannot create remote file '/Bayambang-SFTP-REPOSITORY/1001_20160504_045610_0003'.
+09/23/2016 11:30:47 AM  TransferFileToFTP(): Runtime error Cannot create remote file '/Bayambang-SFTP-REPOSITORY/1001_20160504_045610_0003'.
+09/23/2016 11:31:49 AM  TransferFileToFTP(): Runtime error Cannot create remote file '/Bayambang-SFTP-REPOSITORY/1001_20160504_045610_0003'.
+09/23/2016 11:33:57 AM  TransferFileToFTP(): Runtime error Cannot create remote file '/Bayambang-SFTP-REPOSITORY/1001_20160504_045610_0003'.
+09/23/2016 11:37:01 AM  TransferFileToFTP(): Runtime error Cannot create remote file '/Bayambang-SFTP-REPOSITORY/1001_20160504_045610_0003'.
+09/23/2016 11:38:10 AM  TransferFileToFTP(): Runtime error Cannot create remote file '/Bayambang-SFTP-REPOSITORY/StationName_20160921_020237_0003'.

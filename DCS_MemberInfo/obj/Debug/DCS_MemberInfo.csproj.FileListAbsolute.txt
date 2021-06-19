@@ -1,0 +1,27 @@
+D:\EDEL\ACC\Projects\DCS2015\DCS_MemberInfo\bin\Debug\DCS_MemberInfo.dll
+D:\EDEL\ACC\Projects\DCS2015\DCS_MemberInfo\bin\Debug\DCS_MemberInfo.pdb
+D:\EDEL\ACC\Projects\DCS2015\DCS2015\bin\Debug\DCS_MemberInfo.dll
+D:\EDEL\ACC\Projects\DCS2015\DCS2015\bin\Debug\DCS_MemberInfo.pdb
+D:\EDEL\ACC\Projects\DCS2015\DCS_MemberInfo\obj\Debug\DCS_MemberInfo.dll
+D:\EDEL\ACC\Projects\DCS2015\DCS_MemberInfo\obj\Debug\DCS_MemberInfo.pdb
+D:\EDEL\ACC\Projects\DCS2015 - original\DCS2015\bin\Debug\DCS_MemberInfo.dll
+D:\EDEL\ACC\Projects\DCS2015 - original\DCS2015\bin\Debug\DCS_MemberInfo.pdb
+D:\EDEL\ACC\Projects\DCS2015 - original\DCS_MemberInfo\obj\Debug\DCS_MemberInfo.dll
+D:\EDEL\ACC\Projects\DCS2015 - original\DCS_MemberInfo\obj\Debug\DCS_MemberInfo.pdb
+E:\Projects\DCS2015\DCS2015\bin\Debug\DCS_MemberInfo.dll
+E:\Projects\DCS2015\DCS2015\bin\Debug\DCS_MemberInfo.pdb
+E:\Projects\DCS2015\DCS_MemberInfo\obj\Debug\DCS_MemberInfo.dll
+E:\Projects\DCS2015\DCS_MemberInfo\obj\Debug\DCS_MemberInfo.pdb
+D:\EDEL\ACC\Projects\DCS2015\DCS_MemberInfo\obj\Debug\DCS_MemberInfo.csprojResolveAssemblyReference.cache
+F:\Projects\DCS2015\DCS2015\bin\Debug\DCS_MemberInfo.dll
+F:\Projects\DCS2015\DCS2015\bin\Debug\DCS_MemberInfo.pdb
+F:\Projects\DCS2015\DCS_MemberInfo\obj\Debug\DCS_MemberInfo.csproj.CoreCompileInputs.cache
+F:\Projects\DCS2015\DCS_MemberInfo\obj\Debug\DCS_MemberInfo.dll
+F:\Projects\DCS2015\DCS_MemberInfo\obj\Debug\DCS_MemberInfo.pdb
+F:\Projects\DCS2015\DCS_MemberInfo\obj\Debug\DCS_MemberInfo.csprojAssemblyReference.cache
+D:\WORK\Projects\DCS2015\DCS2015\bin\Debug\DCS_MemberInfo.dll
+D:\WORK\Projects\DCS2015\DCS2015\bin\Debug\DCS_MemberInfo.pdb
+D:\WORK\Projects\DCS2015\DCS_MemberInfo\obj\Debug\DCS_MemberInfo.csprojAssemblyReference.cache
+D:\WORK\Projects\DCS2015\DCS_MemberInfo\obj\Debug\DCS_MemberInfo.csproj.CoreCompileInputs.cache
+D:\WORK\Projects\DCS2015\DCS_MemberInfo\obj\Debug\DCS_MemberInfo.dll
+D:\WORK\Projects\DCS2015\DCS_MemberInfo\obj\Debug\DCS_MemberInfo.pdb

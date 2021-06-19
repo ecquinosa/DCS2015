@@ -1,0 +1,57 @@
+03/14/2016 11:43:41 AM  Main(): Application start
+03/14/2016 11:44:46 AM  Main(): Application start
+03/14/2016 11:45:01 AM  Upload of 02dee607-0d7e-4dab-bb7f-3ea985df449a succeeded
+03/14/2016 11:45:01 AM  Upload of 0d6dfff8-cb7e-426e-b3e3-715581df1a54 succeeded
+03/14/2016 11:45:01 AM  Upload of 0db0240e-05a5-4a27-a15c-efd0540e5221 succeeded
+03/14/2016 11:45:01 AM  Upload of 0f1d088c-b4c4-4175-840e-e3b12216875f succeeded
+03/14/2016 11:45:01 AM  Upload of 1a25218b-d3a6-4b08-9bf6-b2f0fca54e10 succeeded
+03/14/2016 11:45:01 AM  Upload of 1aaa9801-ff01-43f5-bf4e-4398cace8cba succeeded
+03/14/2016 11:45:01 AM  Upload of 1b218a21-d9cf-4c0b-948e-ca8cabbbd835 succeeded
+03/14/2016 11:45:01 AM  Upload of 3ac69cbd-fb72-43dc-9035-840fc8b0b35f succeeded
+03/14/2016 11:45:01 AM  Upload of DCS20151001-00001_20160312_0024 succeeded
+03/14/2016 11:51:29 AM  Main(): Application start
+03/14/2016 11:53:31 AM  Main(): Application start
+03/14/2016 11:55:41 AM  Main(): Application start
+03/14/2016 11:57:37 AM  Main(): Application start
+03/14/2016 11:58:30 AM  Upload of ClashBot 7.10.1 Revision 1780 (10) - Copy.zip succeeded
+03/14/2016 11:58:30 AM  Upload of ClashBot 7.10.1 Revision 1780 (11) - Copy.zip succeeded
+03/14/2016 11:58:30 AM  Upload of ClashBot 7.10.1 Revision 1780 (12) - Copy.zip succeeded
+03/14/2016 11:58:30 AM  Upload of ClashBot 7.10.1 Revision 1780 (13) - Copy.zip succeeded
+03/14/2016 11:58:30 AM  Upload of ClashBot 7.10.1 Revision 1780 (14) - Copy.zip succeeded
+03/14/2016 11:58:30 AM  Upload of ClashBot 7.10.1 Revision 1780 (15) - Copy.zip succeeded
+03/14/2016 11:58:30 AM  Upload of ClashBot 7.10.1 Revision 1780 (2) - Copy.zip succeeded
+03/14/2016 11:58:30 AM  Upload of ClashBot 7.10.1 Revision 1780 (2).zip succeeded
+03/14/2016 11:58:30 AM  Upload of ClashBot 7.10.1 Revision 1780 (3) - Copy.zip succeeded
+03/14/2016 11:58:30 AM  Upload of ClashBot 7.10.1 Revision 1780 (4) - Copy.zip succeeded
+03/14/2016 11:58:30 AM  Upload of ClashBot 7.10.1 Revision 1780 (5) - Copy.zip succeeded
+03/14/2016 11:58:30 AM  Upload of ClashBot 7.10.1 Revision 1780 (6) - Copy.zip succeeded
+03/14/2016 11:58:30 AM  Upload of ClashBot 7.10.1 Revision 1780 (7) - Copy.zip succeeded
+03/14/2016 11:58:30 AM  Upload of ClashBot 7.10.1 Revision 1780 (8) - Copy.zip succeeded
+03/14/2016 11:58:30 AM  Upload of ClashBot 7.10.1 Revision 1780 (9) - Copy.zip succeeded
+03/14/2016 11:58:30 AM  Upload of ClashBot 7.10.1 Revision 1780.zip succeeded
+03/14/2016 12:16:04 PM  Main(): Application start
+03/14/2016 12:17:32 PM  Upload of ClashBot 7.10.1 Revision 1780 (10) - Copy.zip succeeded
+03/14/2016 12:17:32 PM  Upload of ClashBot 7.10.1 Revision 1780 (11) - Copy.zip succeeded
+03/14/2016 12:17:32 PM  Upload of ClashBot 7.10.1 Revision 1780 (12) - Copy.zip succeeded
+03/14/2016 12:17:32 PM  Upload of ClashBot 7.10.1 Revision 1780 (13) - Copy.zip succeeded
+03/14/2016 12:17:32 PM  Upload of ClashBot 7.10.1 Revision 1780 (14) - Copy.zip succeeded
+03/14/2016 12:17:32 PM  Upload of ClashBot 7.10.1 Revision 1780 (15) - Copy.zip succeeded
+03/14/2016 12:17:33 PM  Upload of ClashBot 7.10.1 Revision 1780 (2) - Copy.zip succeeded
+03/14/2016 12:17:33 PM  Upload of ClashBot 7.10.1 Revision 1780 (2).zip succeeded
+03/14/2016 12:17:33 PM  Upload of ClashBot 7.10.1 Revision 1780 (3) - Copy.zip succeeded
+03/14/2016 12:17:33 PM  Upload of ClashBot 7.10.1 Revision 1780 (4) - Copy.zip succeeded
+03/14/2016 12:17:33 PM  Upload of ClashBot 7.10.1 Revision 1780 (5) - Copy.zip succeeded
+03/14/2016 12:17:33 PM  Upload of ClashBot 7.10.1 Revision 1780 (6) - Copy.zip succeeded
+03/14/2016 12:17:33 PM  Upload of ClashBot 7.10.1 Revision 1780 (7) - Copy.zip succeeded
+03/14/2016 12:17:33 PM  Upload of ClashBot 7.10.1 Revision 1780 (8) - Copy.zip succeeded
+03/14/2016 12:17:33 PM  Upload of ClashBot 7.10.1 Revision 1780 (9) - Copy.zip succeeded
+03/14/2016 12:17:33 PM  Upload of ClashBot 7.10.1 Revision 1780.zip succeeded
+09/23/2016 11:29:38 AM  Main(): Application start
+09/23/2016 11:32:50 AM  Main(): Application start
+09/23/2016 11:41:08 AM  Main(): Application start
+09/23/2016 11:41:29 AM  Upload of StationName_20160921_020237_0003 succeeded
+09/23/2016 11:41:29 AM  Upload of StationName_20160921_022748_0004 succeeded
+09/23/2016 11:49:11 AM  Main(): Application start
+09/23/2016 11:49:42 AM  Upload of 190003129679.zip succeeded
+09/23/2016 11:49:42 AM  Upload of 190893194222.zip succeeded
+09/23/2016 11:49:42 AM  Upload of 230474000911.zip succeeded

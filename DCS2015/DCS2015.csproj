@@ -1,0 +1,496 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{17722B79-F197-4846-BC08-EA32747887C0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DCS2015</RootNamespace>
+    <AssemblyName>DCS2015</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>data-capture.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ActiveMKit_Enroll, Version=5.3.2.0, Culture=neutral, PublicKeyToken=9129c4501865bd75, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\ActiveMKit_Enroll.dll</HintPath>
+    </Reference>
+    <Reference Include="AllcardEncryptDecrypt">
+      <HintPath>..\..\PhilhealthDataCapturing_BackOffice - SECURA\PhilhealthDataCapturing_BackOffice\bin\AllcardEncryptDecrypt.dll</HintPath>
+    </Reference>
+    <Reference Include="AxInterop.SIGNVIEWLib">
+      <HintPath>C:\Program Files\signotec\signoPAD-API\Samples\C#.NET\Source\STPadCapt Demo App\STPadCapt Demo App\obj\x86\Debug\AxInterop.SIGNVIEWLib.dll</HintPath>
+    </Reference>
+    <Reference Include="AxInterop.STPadCaptLib">
+      <HintPath>C:\Program Files\signotec\signoPAD-API\Samples\C#.NET\Source\STPadCapt Demo App\STPadCapt Demo App\obj\x86\Debug\AxInterop.STPadCaptLib.dll</HintPath>
+    </Reference>
+    <Reference Include="DCS_DataCapture, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\DCS_DataCapture\AFPSLAI\DCS2015\DCS_DataCapture\bin\Debug\DCS_DataCapture.dll</HintPath>
+    </Reference>
+    <Reference Include="DCS_MemberInfo, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DCS_MemberInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="DCS_OfflineUsers">
+      <HintPath>..\DCS_OfflineUsers\bin\Debug\DCS_OfflineUsers.dll</HintPath>
+    </Reference>
+    <Reference Include="DCS_SignatureCapture, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\DCS_SignatureCapture\DCS_SignatureCapture\bin\Debug\DCS_SignatureCapture.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.SIGNVIEWLib">
+      <HintPath>C:\Program Files\signotec\signoPAD-API\Samples\C#.NET\Source\STPadCapt Demo App\STPadCapt Demo App\obj\x86\Debug\Interop.SIGNVIEWLib.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Interop.STPadCaptLib">
+      <HintPath>C:\Program Files\signotec\signoPAD-API\Samples\C#.NET\Source\STPadCapt Demo App\STPadCapt Demo App\obj\x86\Debug\Interop.STPadCaptLib.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Morpho.MorphoAcquisition, Version=1.2.2.0, Culture=neutral, PublicKeyToken=6c88356942c144bd, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Morpho.MorphoAcquisition.dll</HintPath>
+    </Reference>
+    <Reference Include="Neurotec, Version=4.1.0.0, Culture=neutral, PublicKeyToken=ea4ecf06177ea613, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Neurotec.dll</HintPath>
+    </Reference>
+    <Reference Include="Neurotec.Biometrics, Version=4.2.0.0, Culture=neutral, PublicKeyToken=ea4ecf06177ea613, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Neurotec.Biometrics.dll</HintPath>
+    </Reference>
+    <Reference Include="Neurotec.Biometrics.Gui, Version=4.2.0.0, Culture=neutral, PublicKeyToken=ea4ecf06177ea613, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Neurotec.Biometrics.Gui.dll</HintPath>
+    </Reference>
+    <Reference Include="Neurotec.Biometrics.Standards, Version=4.2.0.0, Culture=neutral, PublicKeyToken=ea4ecf06177ea613, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Neurotec.Biometrics.Standards.dll</HintPath>
+    </Reference>
+    <Reference Include="Neurotec.Biometrics.Standards.Gui, Version=4.2.0.0, Culture=neutral, PublicKeyToken=ea4ecf06177ea613, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Neurotec.Biometrics.Standards.Gui.dll</HintPath>
+    </Reference>
+    <Reference Include="Neurotec.Biometrics.Tools, Version=4.1.0.0, Culture=neutral, PublicKeyToken=ea4ecf06177ea613, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Neurotec.Biometrics.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="Neurotec.Devices, Version=4.1.0.0, Culture=neutral, PublicKeyToken=ea4ecf06177ea613, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Neurotec.Devices.dll</HintPath>
+    </Reference>
+    <Reference Include="Neurotec.Gui, Version=4.1.0.0, Culture=neutral, PublicKeyToken=ea4ecf06177ea613, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Neurotec.Gui.dll</HintPath>
+    </Reference>
+    <Reference Include="Neurotec.Licensing, Version=4.2.0.0, Culture=neutral, PublicKeyToken=ea4ecf06177ea613, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Neurotec.Licensing.dll</HintPath>
+    </Reference>
+    <Reference Include="Neurotec.Media, Version=4.1.0.0, Culture=neutral, PublicKeyToken=ea4ecf06177ea613, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Neurotec.Media.dll</HintPath>
+    </Reference>
+    <Reference Include="Sagem.MorphoKit, Version=5.3.2.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Sagem.MorphoKit.dll</HintPath>
+    </Reference>
+    <Reference Include="SecuGen.FDxSDKPro.Windows, Version=1.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\SecuGen.FDxSDKPro.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="SigPlusNET, Version=2.0.0.34, Culture=neutral, PublicKeyToken=6aef07010bb0624f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\SigPlusNET.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Touchless.Vision, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <HintPath>C:\Allcard\DCS\Touchless.Vision.dll</HintPath>
+    </Reference>
+    <Reference Include="VIBlend.WinForms.Controls, Version=10.1.0.0, Culture=neutral, PublicKeyToken=6feea38fef5ea0cf, processorArchitecture=MSIL" />
+    <Reference Include="VIBlend.WinForms.Utilities, Version=10.1.0.0, Culture=neutral, PublicKeyToken=970a5af59bc48043" />
+    <Reference Include="WebCamLib, Version=0.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <HintPath>C:\Allcard\DCS\WebCamLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class\CameraClasses.cs" />
+    <Compile Include="Class\CanonCamera.cs" />
+    <Compile Include="Class\EDSDK.cs" />
+    <Compile Include="Class\Face.cs" />
+    <Compile Include="Class\FileCompression.cs" />
+    <Compile Include="Class\FileEncryptDecrypt.cs" />
+    <Compile Include="Class\ListofDimensions.cs" />
+    <Compile Include="Class\OfflineLogInAuth.cs" />
+    <Compile Include="Class\PhotoAnalysis.cs" />
+    <Compile Include="Class\PrintImage.cs" />
+    <Compile Include="Class\Sagem.cs" />
+    <Compile Include="Class\Secugen.cs" />
+    <Compile Include="Class\SignPad.cs" />
+    <Compile Include="Class\STPadException.cs" />
+    <Compile Include="Class\Utilities.cs" />
+    <Compile Include="Class\Webcam.cs" />
+    <Compile Include="Class\XMLMemberData.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CapturedList2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CapturedList2.Designer.cs">
+      <DependentUpon>CapturedList2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CapturedList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CapturedList.Designer.cs">
+      <DependentUpon>CapturedList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ChangePassword.Designer.cs">
+      <DependentUpon>ChangePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\LogIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\LogIN.designer.cs">
+      <DependentUpon>LogIN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PhotoSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PhotoSelect.Designer.cs">
+      <DependentUpon>PhotoSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Settings.Designer.cs">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Sig100_DeviceChecker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Sig100_DeviceChecker.Designer.cs">
+      <DependentUpon>Sig100_DeviceChecker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SignatureCapture_Confirm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SignatureCapture_Confirm.Designer.cs">
+      <DependentUpon>SignatureCapture_Confirm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SplashScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SplashScreen.Designer.cs">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SSC_VIEWER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SSC_VIEWER.Designer.cs">
+      <DependentUpon>SSC_VIEWER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UserForms\ucPreview.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\UserForms\ucPreview.Designer.cs">
+      <DependentUpon>ucPreview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UserForms\ucScanFinger_Complete.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\UserForms\ucScanFinger_Complete.designer.cs">
+      <DependentUpon>ucScanFinger_Complete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UserForms\ucScanFinger.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\UserForms\ucScanFinger.designer.cs">
+      <DependentUpon>ucScanFinger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UserForms\ucScanFingerSecugen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\UserForms\ucScanFingerSecugen.Designer.cs">
+      <DependentUpon>ucScanFingerSecugen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UserForms\ucDataCapture.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\UserForms\ucDataCapture.Designer.cs">
+      <DependentUpon>ucDataCapture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UserForms\ucPhotoCapture.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\UserForms\ucPhotoCapture.Designer.cs">
+      <DependentUpon>ucPhotoCapture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UserForms\ucSignatureCapture_EvolisSig100.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\UserForms\ucSignatureCapture_EvolisSig100.Designer.cs">
+      <DependentUpon>ucSignatureCapture_EvolisSig100.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UserForms\ucSignatureCapture.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\UserForms\ucSignatureCapture.Designer.cs">
+      <DependentUpon>ucSignatureCapture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PhotoCropper.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PhotoCropper.Designer.cs">
+      <DependentUpon>PhotoCropper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\ph_com_allcard_philhealth_secura\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CapturedList2.resx">
+      <DependentUpon>CapturedList2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CapturedList.resx">
+      <DependentUpon>CapturedList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChangePassword.resx">
+      <DependentUpon>ChangePassword.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\LogIN.resx">
+      <DependentUpon>LogIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PhotoSelect.resx">
+      <DependentUpon>PhotoSelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Settings.resx">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Sig100_DeviceChecker.resx">
+      <DependentUpon>Sig100_DeviceChecker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SignatureCapture_Confirm.resx">
+      <DependentUpon>SignatureCapture_Confirm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SplashScreen.resx">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SSC_VIEWER.resx">
+      <DependentUpon>SSC_VIEWER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UserForms\ucPreview.resx">
+      <DependentUpon>ucPreview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UserForms\ucScanFinger_Complete.resx">
+      <DependentUpon>ucScanFinger_Complete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UserForms\ucScanFinger.resx">
+      <DependentUpon>ucScanFinger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UserForms\ucScanFingerSecugen.resx">
+      <DependentUpon>ucScanFingerSecugen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UserForms\ucDataCapture.resx">
+      <DependentUpon>ucDataCapture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UserForms\ucPhotoCapture.resx">
+      <DependentUpon>ucPhotoCapture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UserForms\ucSignatureCapture_EvolisSig100.resx">
+      <DependentUpon>ucSignatureCapture_EvolisSig100.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UserForms\ucSignatureCapture.resx">
+      <DependentUpon>ucSignatureCapture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PhotoCropper.resx">
+      <DependentUpon>PhotoCropper.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app2.config" />
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\ph_com_allcard_philhealth_secura\Allcard.wsdl" />
+    <None Include="Web References\ph_com_allcard_philhealth_secura\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left hand - thumb blinking.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left hand - primary blinking.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\right hand - primary blinking.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\right hand - thumb blinking.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blank left hand.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blank right hand.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left right hand.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left right hand3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\preloader.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left right hand4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doubletap.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://philhealth.allcard.com.ph:2200/">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\ph_com_allcard_philhealth_secura\</RelPath>
+      <UpdateFromURL>http://philhealth.allcard.com.ph:2200/</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>DCS2015_ph_com_allcard_philhealth_secura_Allcard</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\ph_com_allcard_philhealth_secura\Allcard.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DefaultBitmap_sigma.png" />
+    <Content Include="data-capture.ico" />
+    <None Include="Resources\bak\left hand - middle blinking.gif" />
+    <None Include="Resources\bak\left hand - pinky blinking.gif" />
+    <None Include="Resources\bak\left hand - primary blinking.gif" />
+    <None Include="Resources\bak\left hand - ring blinking.gif" />
+    <None Include="Resources\bak\left hand - thumb blinking.gif" />
+    <None Include="Resources\bak\right hand - middle blinking.gif" />
+    <None Include="Resources\bak\right hand - pinky blinking.gif" />
+    <None Include="Resources\bak\right hand - primary blinking.gif" />
+    <None Include="Resources\bak\right hand - ring blinking.gif" />
+    <None Include="Resources\bak\right hand - thumb blinking.gif" />
+    <Content Include="Resources\left hand - index scan.jpg" />
+    <Content Include="Resources\left hand - thumb scan.jpg" />
+    <Content Include="Resources\right hand - index scan.jpg" />
+    <Content Include="Resources\right hand - thumb scan.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

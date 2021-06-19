@@ -1,0 +1,23 @@
+DEV_FDU03
+Initialization Success
+m_DeviceOpened
+error = m_FPM.GetImageEx
+error = m_FPM.GetImageEx
+error = m_FPM.GetImageEx
+error = m_FPM.GetImageEx
+06/17/21 05:13:08 PM     failed to insert to database 1111111111111. 
+DEV_FDU03
+Initialization Success
+m_DeviceOpened
+error = m_FPM.GetImageEx
+error = m_FPM.GetImageEx
+error = m_FPM.GetImageEx
+error = m_FPM.GetImageEx
+06/17/21 05:18:29 PM     failed to insert to database 3333333333333. 
+DEV_FDU03
+Initialization Success
+m_DeviceOpened
+error = m_FPM.GetImageEx
+error = m_FPM.GetImageEx
+error = m_FPM.GetImageEx
+error = m_FPM.GetImageEx

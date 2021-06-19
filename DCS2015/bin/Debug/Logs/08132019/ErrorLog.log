@@ -1,0 +1,16 @@
+08/13/19 07:17:31 PM     Acquire() : Runtime catched error Exception while executing MorphoKit::CoderImpl::CoderImpl at .\src\MorphoKitCoder.cpp:145:
+Error 7: Memory error
+Additional information: Memory allocation failed.
+Internal error 3-2: Memory Allocation Failed
+08/13/19 07:17:35 PM     Acquire() : Runtime catched error Exception while executing MorphoKit::CoderImpl::CoderImpl at .\src\MorphoKitCoder.cpp:145:
+Error 7: Memory error
+Additional information: Memory allocation failed.
+Internal error 3-2: Memory Allocation Failed
+08/13/19 07:17:38 PM     Acquire() : Runtime catched error Exception while executing MorphoKit::CoderImpl::CoderImpl at .\src\MorphoKitCoder.cpp:145:
+Error 7: Memory error
+Additional information: Memory allocation failed.
+Internal error 3-2: Memory Allocation Failed
+08/13/19 09:52:07 PM     CapturePhoto(): The file 'Captured Data\RAW\08132019\StationName_20181019_045941_0007\StationName_20181019_045941_0007_ICAO_Photo.jpg' already exists.
+08/13/19 09:52:20 PM     Convert_TO_ICAO(): Operation is not activated
+08/13/19 10:12:37 PM     CapturePhoto(): The file 'Captured Data\RAW\08132019\StationName_20190813_100533_0002\StationName_20190813_100533_0002_ICAO_Photo.jpg' already exists.
+08/13/19 10:12:42 PM     CapturePhoto(): The file 'Captured Data\RAW\08132019\StationName_20190813_100533_0002\StationName_20190813_100533_0002_ICAO_Photo.jpg' already exists.

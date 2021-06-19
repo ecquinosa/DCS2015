@@ -1,0 +1,36 @@
+D:\EDEL\ACC\Projects\DCS2015\DCS_FileTransfer\bin\Debug\DCS_FileTransfer.exe
+D:\EDEL\ACC\Projects\DCS2015\DCS_FileTransfer\bin\Debug\DCS_FileTransfer.pdb
+D:\EDEL\ACC\Projects\DCS2015\DCS_FileTransfer\bin\Debug\WinSCPnet.dll
+D:\EDEL\ACC\Projects\DCS2015\DCS_FileTransfer\obj\x86\Debug\DCS_FileTransfer.exe
+D:\EDEL\ACC\Projects\DCS2015\DCS_FileTransfer\obj\x86\Debug\DCS_FileTransfer.pdb
+D:\EDEL\ACC\Projects\DCS2015 - original\DCS_FileTransfer\bin\Debug\DCS_FileTransfer.exe
+D:\EDEL\ACC\Projects\DCS2015 - original\DCS_FileTransfer\bin\Debug\DCS_FileTransfer.pdb
+D:\EDEL\ACC\Projects\DCS2015 - original\DCS_FileTransfer\bin\Debug\WinSCPnet.dll
+D:\EDEL\ACC\Projects\DCS2015 - original\DCS_FileTransfer\obj\x86\Debug\DCS_FileTransfer.csprojResolveAssemblyReference.cache
+D:\EDEL\ACC\Projects\DCS2015 - original\DCS_FileTransfer\obj\x86\Debug\DCS_FileTransfer.exe
+D:\EDEL\ACC\Projects\DCS2015 - original\DCS_FileTransfer\obj\x86\Debug\DCS_FileTransfer.pdb
+E:\Projects\DCS2015\DCS_FileTransfer\bin\Debug\DCS_FileTransfer.exe
+E:\Projects\DCS2015\DCS_FileTransfer\bin\Debug\DCS_FileTransfer.pdb
+E:\Projects\DCS2015\DCS_FileTransfer\obj\x86\Debug\DCS_FileTransfer.exe
+E:\Projects\DCS2015\DCS_FileTransfer\obj\x86\Debug\DCS_FileTransfer.pdb
+D:\EDEL\ACC\Projects\DCS2015\DCS_FileTransfer\obj\x86\Debug\DCS_FileTransfer.csprojResolveAssemblyReference.cache
+D:\EDEL\ACC\DCS2015\DCS_FileTransfer\bin\Debug\DCS_FileTransfer.exe
+D:\EDEL\ACC\DCS2015\DCS_FileTransfer\bin\Debug\DCS_FileTransfer.pdb
+D:\EDEL\ACC\DCS2015\DCS_FileTransfer\bin\Debug\WinSCPnet.dll
+D:\EDEL\ACC\DCS2015\DCS_FileTransfer\obj\x86\Debug\DCS_FileTransfer.exe
+D:\EDEL\ACC\DCS2015\DCS_FileTransfer\obj\x86\Debug\DCS_FileTransfer.pdb
+D:\EDEL\ACC\DCS2015\DCS_FileTransfer\obj\x86\Debug\DCS_FileTransfer.csprojResolveAssemblyReference.cache
+F:\Projects\DCS2015\DCS_FileTransfer\bin\Debug\DCS_FileTransfer.exe
+F:\Projects\DCS2015\DCS_FileTransfer\bin\Debug\DCS_FileTransfer.pdb
+F:\Projects\DCS2015\DCS_FileTransfer\obj\x86\Debug\DCS_FileTransfer.exe
+F:\Projects\DCS2015\DCS_FileTransfer\obj\x86\Debug\DCS_FileTransfer.pdb
+F:\Projects\DCS2015\DCS_FileTransfer\obj\x86\Debug\DCS_FileTransfer.csprojAssemblyReference.cache
+F:\Projects\DCS2015\DCS_FileTransfer\obj\x86\Debug\DCS_FileTransfer.csproj.CoreCompileInputs.cache
+F:\Projects\DCS2015\DCS_FileTransfer\obj\x86\Debug\DCS_FileTransfer.csproj.CopyComplete
+D:\WORK\Projects\DCS2015\DCS_FileTransfer\bin\Debug\DCS_FileTransfer.exe
+D:\WORK\Projects\DCS2015\DCS_FileTransfer\bin\Debug\DCS_FileTransfer.pdb
+D:\WORK\Projects\DCS2015\DCS_FileTransfer\obj\x86\Debug\DCS_FileTransfer.csprojAssemblyReference.cache
+D:\WORK\Projects\DCS2015\DCS_FileTransfer\obj\x86\Debug\DCS_FileTransfer.csproj.CoreCompileInputs.cache
+D:\WORK\Projects\DCS2015\DCS_FileTransfer\obj\x86\Debug\DCS_FileTransfer.csproj.CopyComplete
+D:\WORK\Projects\DCS2015\DCS_FileTransfer\obj\x86\Debug\DCS_FileTransfer.exe
+D:\WORK\Projects\DCS2015\DCS_FileTransfer\obj\x86\Debug\DCS_FileTransfer.pdb
