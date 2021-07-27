@@ -25,3 +25,9 @@ D:\WORK\Projects\DCS2015\DCS_MemberInfo\obj\Debug\DCS_MemberInfo.csprojAssemblyR
 D:\WORK\Projects\DCS2015\DCS_MemberInfo\obj\Debug\DCS_MemberInfo.csproj.CoreCompileInputs.cache
 D:\WORK\Projects\DCS2015\DCS_MemberInfo\obj\Debug\DCS_MemberInfo.dll
 D:\WORK\Projects\DCS2015\DCS_MemberInfo\obj\Debug\DCS_MemberInfo.pdb
+C:\Drive D\DCS2015\DCS2015\bin\Debug\DCS_MemberInfo.dll
+C:\Drive D\DCS2015\DCS2015\bin\Debug\DCS_MemberInfo.pdb
+C:\Drive D\DCS2015\DCS_MemberInfo\obj\Debug\DCS_MemberInfo.csproj.AssemblyReference.cache
+C:\Drive D\DCS2015\DCS_MemberInfo\obj\Debug\DCS_MemberInfo.csproj.CoreCompileInputs.cache
+C:\Drive D\DCS2015\DCS_MemberInfo\obj\Debug\DCS_MemberInfo.dll
+C:\Drive D\DCS2015\DCS_MemberInfo\obj\Debug\DCS_MemberInfo.pdb

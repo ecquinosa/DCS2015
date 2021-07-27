@@ -7,7 +7,7 @@ LastName||Last Name:|txtLName|TextBox|True|True|True|True|True
 Suffix||Suffix:|txtSuffix|TextBox|True|False|False|True|True
 Gender||Gender:|cboGender|ComboBox|True|True|False|True|False
 DateOfBirth||Date of Birth:|mtbDateOfBirth|DateTimePicker|True|True|False|True|False
-MaritalStatus||Marital Status:|cboMaritalStatus|ComboBox|True|False|False|False|False
+MaritalStatus||Marital Status:|cboMaritalStatus|ComboBox|True|True|False|False|False
 MembershipDate||Membership Date:|mtbMembershipDate|DateTimePicker|True|False|False|False|False
 MembershipStatus||Membership Status:|cboMembershipStatus|ComboBox|True|False|False|False|False
 MembershipType||Membership Type:|cboMembershipType|ComboBox|True|False|False|False|False

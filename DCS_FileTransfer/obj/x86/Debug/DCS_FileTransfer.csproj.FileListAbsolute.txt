@@ -29,8 +29,15 @@ F:\Projects\DCS2015\DCS_FileTransfer\obj\x86\Debug\DCS_FileTransfer.csproj.CoreC
 F:\Projects\DCS2015\DCS_FileTransfer\obj\x86\Debug\DCS_FileTransfer.csproj.CopyComplete
 D:\WORK\Projects\DCS2015\DCS_FileTransfer\bin\Debug\DCS_FileTransfer.exe
 D:\WORK\Projects\DCS2015\DCS_FileTransfer\bin\Debug\DCS_FileTransfer.pdb
-D:\WORK\Projects\DCS2015\DCS_FileTransfer\obj\x86\Debug\DCS_FileTransfer.csprojAssemblyReference.cache
 D:\WORK\Projects\DCS2015\DCS_FileTransfer\obj\x86\Debug\DCS_FileTransfer.csproj.CoreCompileInputs.cache
 D:\WORK\Projects\DCS2015\DCS_FileTransfer\obj\x86\Debug\DCS_FileTransfer.csproj.CopyComplete
 D:\WORK\Projects\DCS2015\DCS_FileTransfer\obj\x86\Debug\DCS_FileTransfer.exe
 D:\WORK\Projects\DCS2015\DCS_FileTransfer\obj\x86\Debug\DCS_FileTransfer.pdb
+C:\Drive D\DCS2015\DCS_FileTransfer\bin\Debug\DCS_FileTransfer.exe
+C:\Drive D\DCS2015\DCS_FileTransfer\bin\Debug\DCS_FileTransfer.pdb
+C:\Drive D\DCS2015\DCS_FileTransfer\obj\x86\Debug\DCS_FileTransfer.csproj.AssemblyReference.cache
+C:\Drive D\DCS2015\DCS_FileTransfer\obj\x86\Debug\DCS_FileTransfer.csproj.CoreCompileInputs.cache
+C:\Drive D\DCS2015\DCS_FileTransfer\obj\x86\Debug\DCS_FileTransfer.csproj.CopyComplete
+C:\Drive D\DCS2015\DCS_FileTransfer\obj\x86\Debug\DCS_FileTransfer.exe
+C:\Drive D\DCS2015\DCS_FileTransfer\obj\x86\Debug\DCS_FileTransfer.pdb
+D:\WORK\Projects\DCS2015\DCS_FileTransfer\obj\x86\Debug\DCS_FileTransfer.csproj.AssemblyReference.cache

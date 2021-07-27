@@ -200,7 +200,8 @@ namespace DCS2015.Forms
 
         private bool ValidateLogIN_AFPSLAI()
         {
-            var response = DCS_DataCapture.MiddleServerApi.ValidateLogIn(txtUsername.Text, txtPassword.Text);
+            DCS_DataCapture.DataCapture dc = new DCS_DataCapture.DataCapture();
+            var response = dc.ValidateLogIn(txtUsername.Text, txtPassword.Text);            
 
             return response;
          }

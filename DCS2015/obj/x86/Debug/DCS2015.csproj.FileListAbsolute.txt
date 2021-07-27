@@ -149,8 +149,6 @@ D:\WORK\Projects\DCS2015\DCS2015\bin\Debug\DCS2015.exe.config
 D:\WORK\Projects\DCS2015\DCS2015\bin\Debug\DCS2015.exe
 D:\WORK\Projects\DCS2015\DCS2015\bin\Debug\DCS2015.pdb
 D:\WORK\Projects\DCS2015\DCS2015\bin\Debug\DCS_OfflineUsers.dll
-D:\WORK\Projects\DCS2015\DCS2015\bin\Debug\VIBlend.WinForms.Controls.dll
-D:\WORK\Projects\DCS2015\DCS2015\bin\Debug\VIBlend.WinForms.Utilities.dll
 D:\WORK\Projects\DCS2015\DCS2015\bin\Debug\DCS_OfflineUsers.pdb
 D:\WORK\Projects\DCS2015\DCS2015\bin\Debug\VIBlend.WinForms.Controls.pdb
 D:\WORK\Projects\DCS2015\DCS2015\bin\Debug\VIBlend.WinForms.Controls.xml
@@ -185,7 +183,6 @@ D:\WORK\Projects\DCS2015\DCS2015\obj\x86\Debug\DCS2015.csproj.CopyComplete
 D:\WORK\Projects\DCS2015\DCS2015\obj\x86\Debug\DCS2015.exe
 D:\WORK\Projects\DCS2015\DCS2015\obj\x86\Debug\DCS2015.pdb
 D:\WORK\Projects\DCS2015\DCS2015\obj\x86\Debug\DCS2015.csproj.CoreCompileInputs.cache
-D:\WORK\Projects\DCS2015\DCS2015\bin\Debug\DCS_DataCapture.dll
 D:\WORK\Projects\DCS2015\DCS2015\bin\Debug\Newtonsoft.Json.dll
 D:\WORK\Projects\DCS2015\DCS2015\bin\Debug\accAfpslaiEmvEncDec.dll
 D:\WORK\Projects\DCS2015\DCS2015\bin\Debug\DCS_DataCapture.pdb
@@ -194,3 +191,61 @@ D:\WORK\Projects\DCS2015\DCS2015\bin\Debug\DCS_MemberInfo.pdb
 D:\WORK\Projects\DCS2015\DCS2015\bin\Debug\Newtonsoft.Json.xml
 D:\WORK\Projects\DCS2015\DCS2015\bin\Debug\accAfpslaiEmvEncDec.pdb
 D:\WORK\Projects\DCS2015\DCS2015\obj\x86\Debug\DCS2015.csproj.AssemblyReference.cache
+D:\WORK\Projects\DCS2015\DCS2015\bin\Debug\DCS_DataCapture.dll
+D:\WORK\Projects\DCS2015\DCS2015\bin\Debug\DCS_DataCapture.exe.config
+D:\WORK\Projects\DCS2015\DCS2015\bin\Debug\accAfpslaiEmvObjct.dll
+D:\WORK\Projects\DCS2015\DCS2015\bin\Debug\accAfpslaiEmvObjct.pdb
+C:\Drive D\DCS2015\DCS2015\obj\x86\Debug\DCS2015.csproj.AssemblyReference.cache
+C:\Drive D\DCS2015\DCS2015\obj\x86\Debug\DCS2015.Form1.resources
+C:\Drive D\DCS2015\DCS2015\obj\x86\Debug\DCS2015.Forms.CapturedList2.resources
+C:\Drive D\DCS2015\DCS2015\obj\x86\Debug\DCS2015.Forms.CapturedList.resources
+C:\Drive D\DCS2015\DCS2015\obj\x86\Debug\DCS2015.Forms.ChangePassword.resources
+C:\Drive D\DCS2015\DCS2015\obj\x86\Debug\DCS2015.Forms.LogIN.resources
+C:\Drive D\DCS2015\DCS2015\obj\x86\Debug\DCS2015.Forms.Main.resources
+C:\Drive D\DCS2015\DCS2015\obj\x86\Debug\DCS2015.Forms.PhotoSelect.resources
+C:\Drive D\DCS2015\DCS2015\obj\x86\Debug\DCS2015.Forms.Settings.resources
+C:\Drive D\DCS2015\DCS2015\obj\x86\Debug\DCS2015.Forms.Sig100_DeviceChecker.resources
+C:\Drive D\DCS2015\DCS2015\obj\x86\Debug\DCS2015.Forms.SignatureCapture_Confirm.resources
+C:\Drive D\DCS2015\DCS2015\obj\x86\Debug\DCS2015.Forms.SplashScreen.resources
+C:\Drive D\DCS2015\DCS2015\obj\x86\Debug\DCS2015.Forms.SSC_VIEWER.resources
+C:\Drive D\DCS2015\DCS2015\obj\x86\Debug\DCS2015.Forms.UserForms.ucPreview.resources
+C:\Drive D\DCS2015\DCS2015\obj\x86\Debug\DCS2015.Forms.UserForms.ucScanFinger_Complete.resources
+C:\Drive D\DCS2015\DCS2015\obj\x86\Debug\DCS2015.Forms.UserForms.ucScanFinger.resources
+C:\Drive D\DCS2015\DCS2015\obj\x86\Debug\DCS2015.Forms.UserForms.ucScanFingerSecugen.resources
+C:\Drive D\DCS2015\DCS2015\obj\x86\Debug\DCS2015.Forms.UserForms.ucDataCapture.resources
+C:\Drive D\DCS2015\DCS2015\obj\x86\Debug\DCS2015.Forms.UserForms.ucPhotoCapture.resources
+C:\Drive D\DCS2015\DCS2015\obj\x86\Debug\DCS2015.Forms.UserForms.ucSignatureCapture_EvolisSig100.resources
+C:\Drive D\DCS2015\DCS2015\obj\x86\Debug\DCS2015.Forms.UserForms.ucSignatureCapture.resources
+C:\Drive D\DCS2015\DCS2015\obj\x86\Debug\DCS2015.PhotoCropper.resources
+C:\Drive D\DCS2015\DCS2015\obj\x86\Debug\DCS2015.Properties.Resources.resources
+C:\Drive D\DCS2015\DCS2015\obj\x86\Debug\DCS2015.csproj.GenerateResource.cache
+C:\Drive D\DCS2015\DCS2015\obj\x86\Debug\DCS2015.csproj.CoreCompileInputs.cache
+C:\Drive D\DCS2015\DCS2015\obj\x86\Debug\DCS2015.exe
+C:\Drive D\DCS2015\DCS2015\obj\x86\Debug\DCS2015.pdb
+C:\Drive D\DCS2015\DCS2015\bin\Debug\DCS2015.exe.config
+C:\Drive D\DCS2015\DCS2015\bin\Debug\DCS2015.exe
+C:\Drive D\DCS2015\DCS2015\bin\Debug\DCS2015.pdb
+C:\Drive D\DCS2015\DCS2015\bin\Debug\accAfpslaiEmvLogIn.dll
+C:\Drive D\DCS2015\DCS2015\bin\Debug\accAfpslaiEmvObjct.dll
+C:\Drive D\DCS2015\DCS2015\bin\Debug\DCS_DataCapture.dll
+C:\Drive D\DCS2015\DCS2015\bin\Debug\DCS_OfflineUsers.dll
+C:\Drive D\DCS2015\DCS2015\bin\Debug\Newtonsoft.Json.dll
+C:\Drive D\DCS2015\DCS2015\bin\Debug\accAfpslaiEmvEncDec.dll
+C:\Drive D\DCS2015\DCS2015\bin\Debug\accAfpslaiEmvLogIn.pdb
+C:\Drive D\DCS2015\DCS2015\bin\Debug\accAfpslaiEmvObjct.pdb
+C:\Drive D\DCS2015\DCS2015\bin\Debug\DCS_DataCapture.pdb
+C:\Drive D\DCS2015\DCS2015\bin\Debug\DCS_DataCapture.dll.config
+C:\Drive D\DCS2015\DCS2015\bin\Debug\DCS_DataCapture.exe.config
+C:\Drive D\DCS2015\DCS2015\bin\Debug\DCS_MemberInfo.pdb
+C:\Drive D\DCS2015\DCS2015\bin\Debug\DCS_OfflineUsers.pdb
+C:\Drive D\DCS2015\DCS2015\bin\Debug\VIBlend.WinForms.Controls.pdb
+C:\Drive D\DCS2015\DCS2015\bin\Debug\VIBlend.WinForms.Controls.xml
+C:\Drive D\DCS2015\DCS2015\bin\Debug\VIBlend.WinForms.Controls.dll.config
+C:\Drive D\DCS2015\DCS2015\bin\Debug\VIBlend.WinForms.Utilities.pdb
+C:\Drive D\DCS2015\DCS2015\bin\Debug\VIBlend.WinForms.Utilities.xml
+C:\Drive D\DCS2015\DCS2015\bin\Debug\VIBlend.WinForms.Utilities.dll.config
+C:\Drive D\DCS2015\DCS2015\bin\Debug\Newtonsoft.Json.xml
+C:\Drive D\DCS2015\DCS2015\bin\Debug\accAfpslaiEmvEncDec.pdb
+C:\Drive D\DCS2015\DCS2015\obj\x86\Debug\DCS2015.csproj.CopyComplete
+D:\WORK\Projects\DCS2015\DCS2015\bin\Debug\accAfpslaiEmvLogIn.dll
+D:\WORK\Projects\DCS2015\DCS2015\bin\Debug\accAfpslaiEmvLogIn.pdb

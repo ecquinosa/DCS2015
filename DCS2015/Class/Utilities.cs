@@ -685,5 +685,18 @@ namespace DCS2015.Class
 
             if (intCntr == 3) return true; else return false;
         }
+        public static string DCS_DataCaptureVersion()
+        {
+            string appVersion = "1";
+            try
+            {
+                appVersion = DCS_DataCapture.DataCapture.AppVersion;
+            }
+            catch
+            { }
+
+            return appVersion;
+        }
+
     }
 }

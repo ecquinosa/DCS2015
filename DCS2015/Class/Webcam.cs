@@ -27,34 +27,42 @@ namespace DCS2015.Class
                     //if (cam.Name == "HD Pro Webcam C920")
                     {
                         _CurrentCamera = cam;
-                    }                
-            
-                startCapturing();
-                InitializeCameraPropertyControls();
+                    }
 
-                _IsBrightnessSupported = CurrentCamera.IsCameraPropertySupported(CameraProperty.Brightness);
-                _IsSharpnessSupported = CurrentCamera.IsCameraPropertySupported(CameraProperty.Sharpness);
-                _IsZoomSupported = CurrentCamera.IsCameraPropertySupported(CameraProperty.Zoom_mm);
-
-                if (_IsBrightnessSupported)
+                if (_CurrentCamera != null)
                 {
-                    CameraPropertyCapabilities propertyCapabilities = CurrentCameraPropertyCapabilities[CameraProperty.Brightness];
-                    UpdateCameraPropertyRange(propertyCapabilities, CameraProperty.Brightness);
-                }
+                    startCapturing();
+                    InitializeCameraPropertyControls();
 
-                if (_IsSharpnessSupported)
+                    _IsBrightnessSupported = CurrentCamera.IsCameraPropertySupported(CameraProperty.Brightness);
+                    _IsSharpnessSupported = CurrentCamera.IsCameraPropertySupported(CameraProperty.Sharpness);
+                    _IsZoomSupported = CurrentCamera.IsCameraPropertySupported(CameraProperty.Zoom_mm);
+
+                    if (_IsBrightnessSupported)
+                    {
+                        CameraPropertyCapabilities propertyCapabilities = CurrentCameraPropertyCapabilities[CameraProperty.Brightness];
+                        UpdateCameraPropertyRange(propertyCapabilities, CameraProperty.Brightness);
+                    }
+
+                    if (_IsSharpnessSupported)
+                    {
+                        CameraPropertyCapabilities propertyCapabilities = CurrentCameraPropertyCapabilities[CameraProperty.Sharpness];
+                        UpdateCameraPropertyRange(propertyCapabilities, CameraProperty.Sharpness);
+                    }
+
+                    if (_IsZoomSupported)
+                    {
+                        CameraPropertyCapabilities propertyCapabilities = CurrentCameraPropertyCapabilities[CameraProperty.Zoom_mm];
+                        UpdateCameraPropertyRange(propertyCapabilities, CameraProperty.Zoom_mm);
+                    }
+
+                    _IsSuccess = true;
+                }
+                else
                 {
-                    CameraPropertyCapabilities propertyCapabilities = CurrentCameraPropertyCapabilities[CameraProperty.Sharpness];
-                    UpdateCameraPropertyRange(propertyCapabilities, CameraProperty.Sharpness);
+                    _ErrorMessage = "Unable to detect camera";
+                    _IsSuccess = false;
                 }
-
-                if (_IsZoomSupported)
-                {
-                    CameraPropertyCapabilities propertyCapabilities = CurrentCameraPropertyCapabilities[CameraProperty.Zoom_mm];
-                    UpdateCameraPropertyRange(propertyCapabilities, CameraProperty.Zoom_mm);
-                }
-
-                _IsSuccess = true;
             }
             catch (Exception ex)
             {

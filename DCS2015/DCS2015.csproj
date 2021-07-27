@@ -44,6 +44,13 @@
     <NoWin32Manifest>true</NoWin32Manifest>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="accAfpslaiEmvLogIn">
+      <HintPath>..\..\acc-afpslai-accAfpslaiEmvLogIn\accAfpslaiEmvLogIn\bin\Debug\accAfpslaiEmvLogIn.dll</HintPath>
+    </Reference>
+    <Reference Include="accAfpslaiEmvObjct, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\accAfpslaiEmvObjct\bin\Debug\accAfpslaiEmvObjct.dll</HintPath>
+    </Reference>
     <Reference Include="ActiveMKit_Enroll, Version=5.3.2.0, Culture=neutral, PublicKeyToken=9129c4501865bd75, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Debug\ActiveMKit_Enroll.dll</HintPath>
@@ -59,7 +66,7 @@
     </Reference>
     <Reference Include="DCS_DataCapture, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\DCS_DataCapture\AFPSLAI\DCS2015\DCS_DataCapture\bin\Debug\DCS_DataCapture.dll</HintPath>
+      <HintPath>..\..\DCS_DataCapture\acc-afpslai-dataCapture\DCS_DataCapture\bin\Debug\DCS_DataCapture.dll</HintPath>
     </Reference>
     <Reference Include="DCS_MemberInfo, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -159,7 +166,8 @@
     <Reference Include="VIBlend.WinForms.Controls, Version=10.1.0.0, Culture=neutral, PublicKeyToken=6feea38fef5ea0cf, processorArchitecture=MSIL" />
     <Reference Include="VIBlend.WinForms.Utilities, Version=10.1.0.0, Culture=neutral, PublicKeyToken=970a5af59bc48043" />
     <Reference Include="WebCamLib, Version=0.0.0.0, Culture=neutral, processorArchitecture=x86">
-      <HintPath>C:\Allcard\DCS\WebCamLib.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\WebCamLib.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

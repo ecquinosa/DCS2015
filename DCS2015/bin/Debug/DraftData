@@ -1,40 +1,40 @@
-txtCardName|FDSAFDSA|TextBox
+txtCardName|JUAN DELA CRUZ|TextBox
 chkForUploading|True|CheckBox
 cboBranchIssue|AGUINALDO|ComboBox
-cboAssociateType|-SELECT-|ComboBox
-txtPrincipalName||TextBox
-txtCIF_PrincipalMember||TextBox
-txtCCANo|3242423|TextBox
+cboAssociateType|DEPENDENT|ComboBox
+txtPrincipalName|JOHN_002 CRUZ_002|TextBox
+txtCIF_PrincipalMember|1122222111112|TextBox
+txtCCANo|34522222111112|TextBox
 txtIDNumber||TextBox
-txtContactNos_Contact|32432432|TextBox
-txtFullName_Contact|DSFSAFDASFD|TextBox
+txtContactNos_Contact|00918345722|TextBox
+txtFullName_Contact|MARTIN_002 CRUZ_002|TextBox
 txtReferenceNumber||TextBox
-mtbMembershipDate|17/06/2000|DateTimePicker
-mtbDateOfBirth|17/06/1986|DateTimePicker
+mtbMembershipDate|03/02/2005|DateTimePicker
+mtbDateOfBirth|03/02/1981|DateTimePicker
 cboReplaceReason|-SELECT-|ComboBox
-txtContactNos|4242342|TextBox
-cboMembershipType|REGULAR|ComboBox
-txtMobileNos|32432432432|TextBox
+txtContactNos|8817552|TextBox
+cboMembershipType|ASSOCIATE|ComboBox
+txtMobileNos|00918345722|TextBox
 cboMembershipStatus|ACTIVE|ComboBox
 cboMaritalStatus|MARRIED|ComboBox
 cboPrintingType|NEW|ComboBox
-txtMName||TextBox
-txtLName|FDAFDSA|TextBox
-txtSuffix||TextBox
-txtCIF|1111111111111|TextBox
-txtFName|FDASF|TextBox
-cboGender|MALE|ComboBox
+txtMName|DELA_002|TextBox
+txtLName|CRUZ_002|TextBox
+txtSuffix|JR|TextBox
+txtCIF|1111111111102|TextBox
+txtFName|JUAN_002|TextBox
+cboGender|FEMALE|ComboBox
 cboCountry|PHILIPPINES|ComboBox
-txtProvince|FDA|TextBox
-txtCity|FDSA|TextBox
-txtZipCode|1334|TextBox
+txtProvince|NCR|TextBox
+txtCity|MARIKINA|TextBox
+txtZipCode|1112|TextBox
 txtAddress2||TextBox
-txtAddress1|FDAFD|TextBox
-txtAddress3|FDA|TextBox
+txtAddress1|ADD1_2|TextBox
+txtAddress3|ADD3_2|TextBox
 Field|True|PhotoOverride
 Field|0|PhotoScore
 Field|False|SignatureOverride
-Field||LeftPrimaryCode
-Field||LeftThumbCode
-Field||RightPrimaryCode
-Field||RightThumbCode
+Field|Left Index|LeftPrimaryCode
+Field|Left Thumb|LeftThumbCode
+Field|Right Index|RightPrimaryCode
+Field|Right Thumb|RightThumbCode

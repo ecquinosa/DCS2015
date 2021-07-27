@@ -44,9 +44,10 @@
             // 
             this.lbContinue.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lbContinue.AutoSize = true;
-            this.lbContinue.Location = new System.Drawing.Point(404, 111);
+            this.lbContinue.Location = new System.Drawing.Point(539, 137);
+            this.lbContinue.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbContinue.Name = "lbContinue";
-            this.lbContinue.Size = new System.Drawing.Size(55, 13);
+            this.lbContinue.Size = new System.Drawing.Size(72, 17);
             this.lbContinue.TabIndex = 14;
             this.lbContinue.TabStop = true;
             this.lbContinue.Text = "Continue?";
@@ -57,9 +58,10 @@
             // 
             this.lblStatus.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblStatus.AutoSize = true;
-            this.lblStatus.Location = new System.Drawing.Point(9, 111);
+            this.lblStatus.Location = new System.Drawing.Point(12, 137);
+            this.lblStatus.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblStatus.Name = "lblStatus";
-            this.lblStatus.Size = new System.Drawing.Size(38, 13);
+            this.lblStatus.Size = new System.Drawing.Size(49, 17);
             this.lblStatus.TabIndex = 13;
             this.lblStatus.Text = "Ready";
             // 
@@ -67,9 +69,10 @@
             // 
             this.Label1.AutoSize = true;
             this.Label1.Font = new System.Drawing.Font("Arial", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label1.Location = new System.Drawing.Point(9, 54);
+            this.Label1.Location = new System.Drawing.Point(12, 66);
+            this.Label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(87, 21);
+            this.Label1.Size = new System.Drawing.Size(103, 26);
             this.Label1.TabIndex = 12;
             this.Label1.Text = "AFPSLAI";
             // 
@@ -79,9 +82,10 @@
             this.Version.BackColor = System.Drawing.Color.Transparent;
             this.Version.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Version.ForeColor = System.Drawing.Color.Gray;
-            this.Version.Location = new System.Drawing.Point(9, 76);
+            this.Version.Location = new System.Drawing.Point(12, 94);
+            this.Version.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Version.Name = "Version";
-            this.Version.Size = new System.Drawing.Size(338, 20);
+            this.Version.Size = new System.Drawing.Size(451, 25);
             this.Version.TabIndex = 10;
             this.Version.Text = "Version {0}.{1:00}";
             // 
@@ -94,10 +98,12 @@
             // ProgressBar1
             // 
             this.ProgressBar1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.ProgressBar1.Location = new System.Drawing.Point(9, 127);
+            this.ProgressBar1.Location = new System.Drawing.Point(12, 156);
+            this.ProgressBar1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ProgressBar1.Name = "ProgressBar1";
-            this.ProgressBar1.Size = new System.Drawing.Size(448, 23);
+            this.ProgressBar1.Size = new System.Drawing.Size(597, 28);
             this.ProgressBar1.TabIndex = 9;
+            this.ProgressBar1.Click += new System.EventHandler(this.ProgressBar1_Click);
             // 
             // Panel1
             // 
@@ -106,8 +112,9 @@
             this.Panel1.Controls.Add(this.btnClose);
             this.Panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.Panel1.Location = new System.Drawing.Point(0, 0);
+            this.Panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel1.Name = "Panel1";
-            this.Panel1.Size = new System.Drawing.Size(465, 49);
+            this.Panel1.Size = new System.Drawing.Size(620, 60);
             this.Panel1.TabIndex = 8;
             // 
             // btnClose
@@ -117,9 +124,10 @@
             this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClose.ForeColor = System.Drawing.Color.Red;
-            this.btnClose.Location = new System.Drawing.Point(400, 3);
+            this.btnClose.Location = new System.Drawing.Point(533, 4);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(62, 23);
+            this.btnClose.Size = new System.Drawing.Size(83, 28);
             this.btnClose.TabIndex = 15;
             this.btnClose.Text = "X Close";
             this.btnClose.UseVisualStyleBackColor = false;
@@ -128,9 +136,9 @@
             // 
             // SplashScreen
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(465, 157);
+            this.ClientSize = new System.Drawing.Size(620, 193);
             this.Controls.Add(this.lbContinue);
             this.Controls.Add(this.lblStatus);
             this.Controls.Add(this.Label1);
@@ -138,6 +146,7 @@
             this.Controls.Add(this.ProgressBar1);
             this.Controls.Add(this.Panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "SplashScreen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SplashScreen";

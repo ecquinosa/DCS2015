@@ -13,11 +13,13 @@ namespace DCS2015.Forms
     {
         public SplashScreen()
         {
-            InitializeComponent();
-            li.ShowDialog();
+            InitializeComponent();                   
         }
 
-        LogIN li = new LogIN();
+        LogIN li = null;
+        accAfpslaiEmvLogIn.LogIN liAfpslai;
+        private bool isLogSuccess = false;
+
         private bool IsCameraConnected = false;
         private bool IsSagemDeviceConnected = false;
         private bool IsSecugenDeviceConnected = false;
@@ -42,16 +44,49 @@ namespace DCS2015.Forms
         {
             try
             {
-                if (!li.Success)
+                switch (DCS_DataCapture.DataCapture.ClientName)
                 {
-                    li = null;
-                    Application.Exit();
+                    case "AFPSLAI":
+                        if (Class.Utilities.DCS_DataCaptureVersion() == "1")
+                        {
+                            li = new LogIN();
+                        }
+                        else
+                        {
+                            DCS_DataCapture.DataCapture dc = new DCS_DataCapture.DataCapture();
+                            liAfpslai = new accAfpslaiEmvLogIn.LogIN(dc.middleServerApi());
+                        }
+
+                        break;
+                    default:
+                        li = new LogIN();
+                        break;
+                }
+
+                if (li != null)
+                {
+                    li.ShowDialog();
+                    isLogSuccess = li.Success;
+                }
+                else if (liAfpslai != null)
+                {
+                    liAfpslai.ShowDialog();
+                    isLogSuccess = liAfpslai.IsSuccess;
+                    if(isLogSuccess)if (accAfpslaiEmvLogIn.LogIN.msa.dcsUser.roleId == 2) Properties.Settings.Default.UserRole = "ADMINISTRATOR";
+                    else Environment.Exit(0);
+                }
+
+                if (!isLogSuccess)
+                {
+                    if (li != null) li = null;
+                    if (liAfpslai != null) li = null;
+                    Environment.Exit(0);
                 }
             }
             catch (Exception ex)
             {
 
-            }   
+            }
 
             Version.Text = Main.AssemblyNameAndProductVersion.Split(',')[1];
             CheckForIllegalCrossThreadCalls = false;
@@ -315,6 +350,11 @@ namespace DCS2015.Forms
             if (Convert.ToInt16(chr) == (short)Class.Utilities.SplashProcessValidation.TopazSignatureTablet) process = "Checking signature tablet device...";            
 
             return process;
+        }
+
+        private void ProgressBar1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

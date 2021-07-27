@@ -2274,25 +2274,32 @@ namespace DCS2015.Forms
 
         public void CropImage(string inputFile, string outputFile, int width, int height)
         {
-            //string imagePath = @"C:\Users\Admin\Desktop\test.jpg";
-            Bitmap croppedImage;
-
-            // Here we capture the resource - image file.
-            using (var originalImage = new Bitmap(inputFile))
+            try
             {
-                Rectangle crop = new Rectangle(0, 0, width, height);
+                //string imagePath = @"C:\Users\Admin\Desktop\test.jpg";
+                Bitmap croppedImage;
 
-                // Here we capture another resource.
-                croppedImage = originalImage.Clone(crop, originalImage.PixelFormat);
+                // Here we capture the resource - image file.
+                using (var originalImage = new Bitmap(inputFile))
+                {
+                    Rectangle crop = new Rectangle(0, 0, width, height);
 
-            } // Here we release the original resource - bitmap in memory and file on disk.
+                    // Here we capture another resource.
+                    croppedImage = originalImage.Clone(crop, originalImage.PixelFormat);
 
-            // At this point the file on disk already free - you can record to the same path.
-            croppedImage.Save(outputFile, ImageFormat.Jpeg);
-            //outputBMP = croppedImage;
+                } // Here we release the original resource - bitmap in memory and file on disk.
 
-            // It is desirable release this resource too.
-            croppedImage.Dispose();
+                // At this point the file on disk already free - you can record to the same path.
+                croppedImage.Save(outputFile, ImageFormat.Jpeg);
+                //outputBMP = croppedImage;
+
+                // It is desirable release this resource too.
+                croppedImage.Dispose();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message + ". Check your default printer.",this.Text,MessageBoxButtons.OK,MessageBoxIcon.Warning);
+            }
         }
 
         private void capturedListToolStripMenuItem_Click(object sender, EventArgs e)
@@ -2369,28 +2376,11 @@ namespace DCS2015.Forms
 
         private void btnLogout_Click(object sender, EventArgs e)
         {
-            OpenFileDialog ofd = new OpenFileDialog();
-            if (ofd.ShowDialog() == DialogResult.OK)
-            {
-                string bmpFile = ofd.FileName;
-                string wsqFile = bmpFile.Replace(Path.GetExtension(ofd.FileName), ".wsq");
-
-                Bitmap bmp = new Bitmap(bmpFile);
-
-                PhotoAnalysis.SaveToWSQ(bmp, wsqFile);
-                PhotoAnalysis.DrawScoreToFingerPrintImage(wsqFile);
-            
-            }
-
-            ofd.Dispose();
-            ofd = null;            
-
-            return;
-
             if (Utilities.ShowQuestionMessage("Are you sure you want to logout?") == DialogResult.Yes)
             {
                 _ucDataCapture.CloseDataCapture();
-                RunBat();
+                Environment.Exit(0);
+                //RunBat();
                 //Utilities.KillProgram("DCS2015.exe");
                 //System.Environment.Exit(1);
             }
