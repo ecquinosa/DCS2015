@@ -469,8 +469,9 @@ namespace DCS2015.Class
 
        private static string SystemLog = @"Logs\" + DateTime.Now.ToString("MMddyyyy") + @"\SystemLog.log";
        private static string ErrorLog = @"Logs\" + DateTime.Now.ToString("MMddyyyy") + @"\ErrorLog.log";
-       private static string CapturedList = @"Logs\" + DateTime.Now.ToString("MMddyyyy") + @"\CapturedList.log";
-       private static string CapturedListCSV = @"Logs\" + DateTime.Now.ToString("MMddyyyy") + @"\CapturedListCSV.csv";
+       //private static string CapturedList = @"Logs\" + "07142021" + @"\CapturedList.log";
+        private static string CapturedList = @"Logs\" + DateTime.Now.ToString("MMddyyyy") + @"\CapturedList.log";
+        private static string CapturedListCSV = @"Logs\" + DateTime.Now.ToString("MMddyyyy") + @"\CapturedListCSV.csv";
 
         private static void InitLogFolder()
        {

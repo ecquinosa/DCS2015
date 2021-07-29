@@ -150,12 +150,6 @@ D:\WORK\Projects\DCS2015\DCS2015\bin\Debug\DCS2015.exe
 D:\WORK\Projects\DCS2015\DCS2015\bin\Debug\DCS2015.pdb
 D:\WORK\Projects\DCS2015\DCS2015\bin\Debug\DCS_OfflineUsers.dll
 D:\WORK\Projects\DCS2015\DCS2015\bin\Debug\DCS_OfflineUsers.pdb
-D:\WORK\Projects\DCS2015\DCS2015\bin\Debug\VIBlend.WinForms.Controls.pdb
-D:\WORK\Projects\DCS2015\DCS2015\bin\Debug\VIBlend.WinForms.Controls.xml
-D:\WORK\Projects\DCS2015\DCS2015\bin\Debug\VIBlend.WinForms.Controls.dll.config
-D:\WORK\Projects\DCS2015\DCS2015\bin\Debug\VIBlend.WinForms.Utilities.pdb
-D:\WORK\Projects\DCS2015\DCS2015\bin\Debug\VIBlend.WinForms.Utilities.xml
-D:\WORK\Projects\DCS2015\DCS2015\bin\Debug\VIBlend.WinForms.Utilities.dll.config
 D:\WORK\Projects\DCS2015\DCS2015\obj\x86\Debug\DCS2015.Form1.resources
 D:\WORK\Projects\DCS2015\DCS2015\obj\x86\Debug\DCS2015.Forms.CapturedList2.resources
 D:\WORK\Projects\DCS2015\DCS2015\obj\x86\Debug\DCS2015.Forms.CapturedList.resources
@@ -187,10 +181,8 @@ D:\WORK\Projects\DCS2015\DCS2015\bin\Debug\Newtonsoft.Json.dll
 D:\WORK\Projects\DCS2015\DCS2015\bin\Debug\accAfpslaiEmvEncDec.dll
 D:\WORK\Projects\DCS2015\DCS2015\bin\Debug\DCS_DataCapture.pdb
 D:\WORK\Projects\DCS2015\DCS2015\bin\Debug\DCS_DataCapture.dll.config
-D:\WORK\Projects\DCS2015\DCS2015\bin\Debug\DCS_MemberInfo.pdb
 D:\WORK\Projects\DCS2015\DCS2015\bin\Debug\Newtonsoft.Json.xml
 D:\WORK\Projects\DCS2015\DCS2015\bin\Debug\accAfpslaiEmvEncDec.pdb
-D:\WORK\Projects\DCS2015\DCS2015\obj\x86\Debug\DCS2015.csproj.AssemblyReference.cache
 D:\WORK\Projects\DCS2015\DCS2015\bin\Debug\DCS_DataCapture.dll
 D:\WORK\Projects\DCS2015\DCS2015\bin\Debug\DCS_DataCapture.exe.config
 D:\WORK\Projects\DCS2015\DCS2015\bin\Debug\accAfpslaiEmvObjct.dll
@@ -249,3 +241,4 @@ C:\Drive D\DCS2015\DCS2015\bin\Debug\accAfpslaiEmvEncDec.pdb
 C:\Drive D\DCS2015\DCS2015\obj\x86\Debug\DCS2015.csproj.CopyComplete
 D:\WORK\Projects\DCS2015\DCS2015\bin\Debug\accAfpslaiEmvLogIn.dll
 D:\WORK\Projects\DCS2015\DCS2015\bin\Debug\accAfpslaiEmvLogIn.pdb
+D:\WORK\Projects\DCS2015\DCS2015\obj\x86\Debug\DCS2015.csproj.AssemblyReference.cache

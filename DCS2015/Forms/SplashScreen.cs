@@ -72,8 +72,12 @@ namespace DCS2015.Forms
                 {
                     liAfpslai.ShowDialog();
                     isLogSuccess = liAfpslai.IsSuccess;
-                    if(isLogSuccess)if (accAfpslaiEmvLogIn.LogIN.msa.dcsUser.roleId == 2) Properties.Settings.Default.UserRole = "ADMINISTRATOR";
-                    else Environment.Exit(0);
+                    if (isLogSuccess) if (accAfpslaiEmvLogIn.LogIN.msa.dcsUser.roleId == 2)
+                        { 
+                            Properties.Settings.Default.UserRole = "ADMINISTRATOR";
+                            Properties.Settings.Default.Save();
+                        }
+                    //else Environment.Exit(0);
                 }
 
                 if (!isLogSuccess)
