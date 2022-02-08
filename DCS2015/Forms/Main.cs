@@ -750,9 +750,9 @@ namespace DCS2015.Forms
                         {
                             //DCS.data.memberinfo.select("field='cif_id'")[0]["value"].tostring()
                             Utilities.SaveToErrorLog(string.Format("{0}failed to insert to database {1}. {2}", Utilities.TimeStamp(), _ucDataCapture.MemberID, errMsg));
-                            Utilities.ShowInfoMessage("data and biometric capture are success but database insertion failed...");
+                            Utilities.ShowInfoMessage("Data and biometric capture are success but database insertion failed...");
                         }
-                        else Utilities.ShowInfoMessage("data and biometric capture are success!");
+                        else Utilities.ShowInfoMessage("Data and biometric capture are success!");
 
                         break;
                     case "Philhealth":

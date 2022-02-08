@@ -60,6 +60,17 @@ namespace DCS2015.Forms
             {
                 _secugen = new Class.Secugen();
                 _secugen.EnumerateDevice(cboSecugenDevice_tabSecugen);
+
+                if (cboSecugenDevice_tabSecugen.Items.Count == 0)
+                {
+                    cboSecugenDevice_tabSecugen.Visible = false;
+                    label24.Visible = false;
+                }
+                else
+                {
+                    cboSecugenDevice_tabSecugen.Visible = true;
+                    label24.Visible = true;
+                }
             }
             catch(Exception ex) {
                 MessageBox.Show(ex.Message);
@@ -375,6 +386,6 @@ namespace DCS2015.Forms
             }
             fbd.Dispose();
             fbd = null;
-        }
+        }        
     }
 }

@@ -1,41 +1,41 @@
-txtCardName|TEST TEST|TextBox
+txtCardName|JUAN DD|TextBox
 chkForUploading|True|CheckBox
-cboBranchIssue|AGUINALDO|ComboBox
-cboAssociateType|-SELECT-|ComboBox
-txtPrincipalName||TextBox
-txtCIF_PrincipalMember||TextBox
-txtCCANo|45222221111115|TextBox
+cboBranchIssue|-SELECT-|ComboBox
+cboAssociateType|DEPENDENT|ComboBox
+txtPrincipalName|JOHN_002 CRUZ_002|TextBox
+txtCIF_PrincipalMember|1122222111112|TextBox
+txtCCANo|34522222111112|TextBox
 txtIDNumber||TextBox
-txtContactNos_Contact|09183457215|TextBox
-txtFullName_Contact|MARTIN_0015 CRUZ_0015|TextBox
-txtBranchIssue|AGUINALDO|TextBox
+txtContactNos_Contact|00918345722|TextBox
+txtFullName_Contact|MARTIN_002 CRUZ_002|TextBox
+txtBranchIssue||TextBox
 txtReferenceNumber||TextBox
-mtbMembershipDate|03/03/2005|DateTimePicker
-mtbDateOfBirth|03/03/1994|DateTimePicker
+mtbMembershipDate|03/02/2005|DateTimePicker
+mtbDateOfBirth|03/02/1981|DateTimePicker
 cboReplaceReason|-SELECT-|ComboBox
-txtContactNos|8175515|TextBox
-cboMembershipType|REGULAR|ComboBox
-txtMobileNos|09183457215|TextBox
+txtContactNos|8817552|TextBox
+cboMembershipType|ASSOCIATE|ComboBox
+txtMobileNos|00918345722|TextBox
 cboMembershipStatus|ACTIVE|ComboBox
-cboMaritalStatus|WIDOWED|ComboBox
+cboMaritalStatus|MARRIED|ComboBox
 cboPrintingType|NEW|ComboBox
-txtMName|DELA_0015|TextBox
-txtLName|CRUZ_0015|TextBox
-txtSuffix||TextBox
-txtCIF|1111111111015|TextBox
-txtFName|JUAN_0015|TextBox
-cboGender|MALE|ComboBox
+txtMName|DELA_002|TextBox
+txtLName|CRUZ_002|TextBox
+txtSuffix|JR|TextBox
+txtCIF|1111111111102|TextBox
+txtFName|JUAN_002|TextBox
+cboGender|FEMALE|ComboBox
 cboCountry|PHILIPPINES|ComboBox
 txtProvince|NCR|TextBox
-txtCity|QC|TextBox
-txtZipCode|1117|TextBox
+txtCity|MARIKINA|TextBox
+txtZipCode|1112|TextBox
 txtAddress2||TextBox
-txtAddress1|ADD1_15|TextBox
-txtAddress3|ADD3_15|TextBox
-Field|False|PhotoOverride
+txtAddress1|ADD1_2|TextBox
+txtAddress3|ADD3_2|TextBox
+Field|True|PhotoOverride
 Field|0|PhotoScore
 Field|False|SignatureOverride
-Field||LeftPrimaryCode
-Field||LeftThumbCode
-Field||RightPrimaryCode
-Field||RightThumbCode
+Field|Left Index|LeftPrimaryCode
+Field|Left Thumb|LeftThumbCode
+Field|Right Index|RightPrimaryCode
+Field|Right Thumb|RightThumbCode

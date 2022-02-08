@@ -66,7 +66,7 @@
     </Reference>
     <Reference Include="DCS_DataCapture, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\DCS_DataCapture\acc-afpslai-dataCapture\DCS_DataCapture\bin\Debug\DCS_DataCapture.dll</HintPath>
+      <HintPath>bin\Debug\DCS_DataCapture.dll</HintPath>
     </Reference>
     <Reference Include="DCS_MemberInfo, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
