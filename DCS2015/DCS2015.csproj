@@ -43,8 +43,13 @@
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
   <ItemGroup>
-    <Reference Include="accAfpslaiEmvLogIn">
+    <Reference Include="accAfpslaiEmvLogIn, Version=1.0.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\acc-afpslai-accAfpslaiEmvLogIn\accAfpslaiEmvLogIn\bin\Debug\accAfpslaiEmvLogIn.dll</HintPath>
     </Reference>
     <Reference Include="accAfpslaiEmvObjct, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
@@ -64,9 +69,9 @@
     <Reference Include="AxInterop.STPadCaptLib">
       <HintPath>C:\Program Files\signotec\signoPAD-API\Samples\C#.NET\Source\STPadCapt Demo App\STPadCapt Demo App\obj\x86\Debug\AxInterop.STPadCaptLib.dll</HintPath>
     </Reference>
-    <Reference Include="DCS_DataCapture, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="DCS_DataCapture, Version=1.0.0.1, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DCS_DataCapture.dll</HintPath>
+      <HintPath>..\..\DCS_DataCapture\acc-afpslai-dataCapture\DCS_DataCapture\bin\Debug\DCS_DataCapture.dll</HintPath>
     </Reference>
     <Reference Include="DCS_MemberInfo, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>

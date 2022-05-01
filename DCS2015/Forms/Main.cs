@@ -85,10 +85,13 @@ namespace DCS2015.Forms
                 //Properties.Settings.Default.Save();
 
                 ModulesAvailability();
+                DCS_MemberInfo.Data.ResetData();
                 Initialization();
                 BindFooterLabel();            
                 btnData.PerformClick();
 
+                tmrFooter.Interval = 1000;
+                tmrFooter.Tick+= new EventHandler(tmrFooter_Tick);
                 IsFormInitialLoad = false;
             }
             catch(Exception ex)
@@ -315,11 +318,48 @@ namespace DCS2015.Forms
             uc.Dock = DockStyle.Fill;
             splitContUpper.Panel2.Controls.Add(uc);                        
         }
-        
 
+
+        //public void DisplayFooterMsg(string Msg)
+        //{            
+        //    txtFooterMsg.Text = Msg;
+        //    txtFooterMsg.ForeColor = Color.OrangeRed;
+        //}
+
+        Timer tmrFooter = new Timer();
+        short footerMsgSecondsToDisplay = 1;
+        short footerMsgIndex = 1;
+        private void tmrFooter_Tick(object sender, EventArgs e)
+        {
+            if (footerMsgIndex != -1)
+            {
+                DisplayFooterMsgThread();
+                // System.Threading.Thread.Sleep(1000);
+                footerMsgIndex -= 1;
+            }
+            else
+            {
+                txtFooterMsg.Clear();
+                tmrFooter.Stop();
+            }
+        }
         public void DisplayFooterMsg(string Msg)
-        {            
-            txtFooterMsg.Text = Msg;
+        {
+            footerMsg = Msg;
+            DisplayFooterMsgThread();
+
+            footerMsgIndex = footerMsgSecondsToDisplay;
+            tmrFooter.Stop();
+            tmrFooter.Start();
+            //txtFooterMsg.Text = footerMsg;
+            //txtFooterMsg.ForeColor = Color.OrangeRed;
+        }
+
+        string footerMsg = "";
+
+        private void DisplayFooterMsgThread()
+        {
+            txtFooterMsg.Text = footerMsg;
             txtFooterMsg.ForeColor = Color.OrangeRed;
         }
 
@@ -2389,6 +2429,6 @@ namespace DCS2015.Forms
         private void RunBat()
         {
             System.Diagnostics.Process.Start("restart_dcs.bat");
-        }
+        }       
     }
 }

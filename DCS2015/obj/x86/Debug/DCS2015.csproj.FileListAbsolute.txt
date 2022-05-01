@@ -240,9 +240,10 @@ C:\Drive D\DCS2015\DCS2015\bin\Debug\accAfpslaiEmvEncDec.pdb
 C:\Drive D\DCS2015\DCS2015\obj\x86\Debug\DCS2015.csproj.CopyComplete
 D:\WORK\Projects\DCS2015\DCS2015\bin\Debug\accAfpslaiEmvLogIn.dll
 D:\WORK\Projects\DCS2015\DCS2015\bin\Debug\accAfpslaiEmvLogIn.pdb
-D:\WORK\Projects\DCS2015\DCS2015\obj\x86\Debug\DCS2015.csproj.SuggestedBindingRedirects.cache
-D:\WORK\Projects\DCS2015\DCS2015\obj\x86\Debug\DCS2015.csproj.AssemblyReference.cache
 D:\WORK\Projects\DCS2015\DCS2015\bin\Debug\System.Net.Http.Formatting.dll
 D:\WORK\Projects\DCS2015\DCS2015\bin\Debug\accAfpslaiEmvObjct.dll.config
 D:\WORK\Projects\DCS2015\DCS2015\bin\Debug\System.Net.Http.Formatting.xml
 D:\WORK\Projects\DCS2015\DCS2015\obj\x86\Debug\DCS2015.exe.config
+D:\WORK\Projects\DCS2015\DCS2015\bin\Debug\DCS_DataCapture.dll
+D:\WORK\Projects\DCS2015\DCS2015\obj\x86\Debug\DCS2015.csproj.AssemblyReference.cache
+D:\WORK\Projects\DCS2015\DCS2015\bin\Debug\DCS_MemberInfo.pdb

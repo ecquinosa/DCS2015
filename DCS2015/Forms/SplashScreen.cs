@@ -54,7 +54,7 @@ namespace DCS2015.Forms
                         else
                         {
                             DCS_DataCapture.DataCapture dc = new DCS_DataCapture.DataCapture();
-                            liAfpslai = new accAfpslaiEmvLogIn.LogIN(dc.middleServerApi());
+                            liAfpslai = new accAfpslaiEmvLogIn.LogIN(dc.middleServerApi());                            
                         }
 
                         break;
@@ -72,11 +72,19 @@ namespace DCS2015.Forms
                 {
                     liAfpslai.ShowDialog();
                     isLogSuccess = liAfpslai.IsSuccess;
-                    if (isLogSuccess) if (accAfpslaiEmvLogIn.LogIN.msa.dcsUser.roleId == 2)
-                        { 
-                            Properties.Settings.Default.UserRole = "ADMINISTRATOR";
-                            Properties.Settings.Default.Save();
-                        }
+                    if (isLogSuccess)
+                    {
+                        if (accAfpslaiEmvLogIn.LogIN.msa.dcsUser.roleId == 2)
+                        {
+                            Properties.Settings.Default.UserRole = "ADMINISTRATOR";                            
+                        } else Properties.Settings.Default.UserRole = accAfpslaiEmvLogIn.LogIN.msa.dcsUser.roleDesc;
+
+                        Properties.Settings.Default.Operator = accAfpslaiEmvLogIn.LogIN.msa.dcsUser.fullName.Trim();
+                        Properties.Settings.Default.UserRole = accAfpslaiEmvLogIn.LogIN.msa.dcsUser.roleDesc;
+                        Properties.Settings.Default.Save();
+                        DCS_MemberInfo.Data.UserRole = Properties.Settings.Default.UserRole;
+                        DCS_MemberInfo.Data.OperatorID = Properties.Settings.Default.Operator;
+                    }
                     //else Environment.Exit(0);
                 }
 

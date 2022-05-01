@@ -1,37 +1,37 @@
-txtCardName|JUAN DD|TextBox
+txtCardName|DFDSFDSSDSA|TextBox
 chkForUploading|True|CheckBox
-cboBranchIssue|-SELECT-|ComboBox
-cboAssociateType|DEPENDENT|ComboBox
-txtPrincipalName|JOHN_002 CRUZ_002|TextBox
-txtCIF_PrincipalMember|1122222111112|TextBox
-txtCCANo|34522222111112|TextBox
+cboBranchIssue|AGUINALDO|ComboBox
+cboAssociateType|-SELECT-|ComboBox
+txtPrincipalName||TextBox
+txtCIF_PrincipalMember||TextBox
+txtCCANo||TextBox
 txtIDNumber||TextBox
-txtContactNos_Contact|00918345722|TextBox
-txtFullName_Contact|MARTIN_002 CRUZ_002|TextBox
-txtBranchIssue||TextBox
+txtContactNos_Contact||TextBox
+txtFullName_Contact||TextBox
+txtBranchIssue|AGUINALDO|TextBox
 txtReferenceNumber||TextBox
-mtbMembershipDate|03/02/2005|DateTimePicker
-mtbDateOfBirth|03/02/1981|DateTimePicker
+mtbMembershipDate|12/03/2012|DateTimePicker
+mtbDateOfBirth|23/01/1953|DateTimePicker
 cboReplaceReason|-SELECT-|ComboBox
-txtContactNos|8817552|TextBox
-cboMembershipType|ASSOCIATE|ComboBox
-txtMobileNos|00918345722|TextBox
+txtContactNos||TextBox
+cboMembershipType|REGULAR|ComboBox
+txtMobileNos||TextBox
 cboMembershipStatus|ACTIVE|ComboBox
 cboMaritalStatus|MARRIED|ComboBox
 cboPrintingType|NEW|ComboBox
-txtMName|DELA_002|TextBox
-txtLName|CRUZ_002|TextBox
-txtSuffix|JR|TextBox
-txtCIF|1111111111102|TextBox
-txtFName|JUAN_002|TextBox
-cboGender|FEMALE|ComboBox
+txtMName|SARET|TextBox
+txtLName|BUENAOBRA|TextBox
+txtSuffix||TextBox
+txtCIF|2012610008065|TextBox
+txtFName|REYMUNDO|TextBox
+cboGender|MALE|ComboBox
 cboCountry|PHILIPPINES|ComboBox
-txtProvince|NCR|TextBox
-txtCity|MARIKINA|TextBox
-txtZipCode|1112|TextBox
+txtProvince|QUEZON|TextBox
+txtCity|PAGBILAO|TextBox
+txtZipCode|4302|TextBox
 txtAddress2||TextBox
-txtAddress1|ADD1_2|TextBox
-txtAddress3|ADD3_2|TextBox
+txtAddress1|IBABA PALSABANGON|TextBox
+txtAddress3| |TextBox
 Field|True|PhotoOverride
 Field|0|PhotoScore
 Field|False|SignatureOverride
