@@ -75,7 +75,8 @@ namespace DCS2015.Class
             }
             catch (System.Exception ex)
             {
-                Utilities.SaveToErrorLog(Utilities.TimeStamp() + string.Format("Failed to compress {0}", Utilities.SessionReference()));
+                //Utilities.SaveToErrorLog(Utilities.TimeStamp() + string.Format("Failed to compress {0}", Utilities.SessionReference()));
+                Utilities.SaveToErrorLog(Utilities.TimeStamp() + string.Format("Failed to compress {0}", Utilities.CaptureSessionReference));
                 return false;
             }
         }

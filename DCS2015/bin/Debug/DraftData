@@ -1,4 +1,4 @@
-txtCardName|DFDSFDSSDSA|TextBox
+txtCardName|JY JY|TextBox
 chkForUploading|True|CheckBox
 cboBranchIssue|AGUINALDO|ComboBox
 cboAssociateType|-SELECT-|ComboBox
@@ -9,16 +9,16 @@ txtIDNumber||TextBox
 txtContactNos_Contact||TextBox
 txtFullName_Contact||TextBox
 txtBranchIssue|AGUINALDO|TextBox
-txtReferenceNumber||TextBox
+txtReferenceNumber|2012610008065|TextBox
 mtbMembershipDate|12/03/2012|DateTimePicker
 mtbDateOfBirth|23/01/1953|DateTimePicker
-cboReplaceReason|-SELECT-|ComboBox
+cboReplaceReason|LOST                |ComboBox
 txtContactNos||TextBox
 cboMembershipType|REGULAR|ComboBox
 txtMobileNos||TextBox
 cboMembershipStatus|ACTIVE|ComboBox
 cboMaritalStatus|MARRIED|ComboBox
-cboPrintingType|NEW|ComboBox
+cboPrintingType|REPLACE|ComboBox
 txtMName|SARET|TextBox
 txtLName|BUENAOBRA|TextBox
 txtSuffix||TextBox
@@ -32,10 +32,10 @@ txtZipCode|4302|TextBox
 txtAddress2||TextBox
 txtAddress1|IBABA PALSABANGON|TextBox
 txtAddress3| |TextBox
-Field|True|PhotoOverride
+Field|False|PhotoOverride
 Field|0|PhotoScore
 Field|False|SignatureOverride
-Field|Left Index|LeftPrimaryCode
-Field|Left Thumb|LeftThumbCode
-Field|Right Index|RightPrimaryCode
-Field|Right Thumb|RightThumbCode
+Field||LeftPrimaryCode
+Field||LeftThumbCode
+Field||RightPrimaryCode
+Field||RightThumbCode

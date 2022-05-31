@@ -34,8 +34,14 @@ namespace DCS2015.Forms
             //}
             //else
             //{
-                if (Utilities.IsProgramRunning("DCS2015.exe") > 1) Utilities.KillProgram("DCS2015.exe");
-                ss.ShowDialog();
+            //if (Utilities.IsProgramRunning("DCS2015.exe") > 1) Utilities.KillProgram("DCS2015.exe");
+            if (Utilities.IsProgramRunning("DCS2015.exe") > 1)
+            {
+                Utilities.ShowInfoMessage("Another dcs instance is running.");
+                Environment.Exit(0);
+            }
+
+            ss.ShowDialog();
             //}
         }
 
@@ -54,10 +60,11 @@ namespace DCS2015.Forms
             }
         }
 
-        private bool IsDataLoadedFromDraft;
+        //private bool IsDataLoadedFromDraft;
         private bool IsFormInitialLoad = true;        
         public static DCS_DataCapture.DataCapture _ucDataCapture;                
-       
+        //public static string MainSessionReference = "";
+
         private void Main_Load(object sender, EventArgs e)
         {
             try
@@ -276,21 +283,25 @@ namespace DCS2015.Forms
 
         public void BindFooterLabel()
         {
-            label1.Text = string.Format("User: {0}     |     Station Reference: {1}     |     SessionID: {2}     |     Reference APIs: {3} {4}, {5} {6}", Properties.Settings.Default.Operator.Trim(), Properties.Settings.Default.StationReference.Trim(), Utilities.SessionReference(), DCS_DataCapture.DataCapture.AssemblyNameAndProductVersion.Split(',')[0], DCS_DataCapture.DataCapture.AssemblyNameAndProductVersion.Split(',')[1], DCS_MemberInfo.Data.AssemblyNameAndProductVersion.Split(',')[0], DCS_MemberInfo.Data.AssemblyNameAndProductVersion.Split(',')[1]);            
+            //label1.Text = string.Format("User: {0}     |     Station Reference: {1}     |     SessionID: {2}     |     Reference APIs: {3} {4}, {5} {6}", Properties.Settings.Default.Operator.Trim(), Properties.Settings.Default.StationReference.Trim(), Utilities.SessionReference(), DCS_DataCapture.DataCapture.AssemblyNameAndProductVersion.Split(',')[0], DCS_DataCapture.DataCapture.AssemblyNameAndProductVersion.Split(',')[1], DCS_MemberInfo.Data.AssemblyNameAndProductVersion.Split(',')[0], DCS_MemberInfo.Data.AssemblyNameAndProductVersion.Split(',')[1]);
+            label1.Text = string.Format("User: {0}     |     Station Reference: {1}     |     SessionID: {2}     |     Reference APIs: {3} {4}, {5} {6}", Properties.Settings.Default.Operator.Trim(), Properties.Settings.Default.StationReference.Trim(), Utilities.CaptureSessionReference, DCS_DataCapture.DataCapture.AssemblyNameAndProductVersion.Split(',')[0], DCS_DataCapture.DataCapture.AssemblyNameAndProductVersion.Split(',')[1], DCS_MemberInfo.Data.AssemblyNameAndProductVersion.Split(',')[0], DCS_MemberInfo.Data.AssemblyNameAndProductVersion.Split(',')[1]);
         }
 
         private void Initialization()
         {
-            _ucDataCapture = new DCS_DataCapture.DataCapture();
-            
+            _ucDataCapture = new DCS_DataCapture.DataCapture();            
+
             Utilities.InitCapturedDataFolder();            
             DCS_MemberInfo.Data.PhotoOverride = false;
             DCS_MemberInfo.Data.SignatureOverride = false;
             DCS_MemberInfo.Data.PhotoScore = 0;
             DCS_MemberInfo.Data.OperatorID = Properties.Settings.Default.Operator.ToUpper();
             DCS_MemberInfo.Data.TerminalName = Properties.Settings.Default.StationReference;
-            DCS_MemberInfo.Data.CapturedDataRepo = Properties.Settings.Default.CapturedOutputPath;
-            DCS_MemberInfo.Data.InitMemberInfo();            
+            DCS_MemberInfo.Data.CapturedDataRepo = Properties.Settings.Default.CapturedOutputPath;            
+            DCS_MemberInfo.Data.InitMemberInfo();
+
+            Utilities.CaptureSessionReference = Utilities.SessionReferencev2();
+
             //DCS_MemberInfo.Data.MemberDataXMLFile = string.Format(@"{0}\{1}", Class.Utilities.CAPTUREDDATA_RAW_REPOSITORY, Utilities.MemberDataXML_FileName);
             //DCS_MemberInfo.Data.MemberDataSingleFile = string.Format(@"{0}\{1}", Class.Utilities.CAPTUREDDATA_SINGLEFILE_REPOSITORY, Utilities.MemberDataSingleFile_FileName);
 
@@ -378,10 +389,12 @@ namespace DCS2015.Forms
                     else
                     {
                         txtFooterMsg.Clear();
-                        SaveToDraft2();
-                        Utilities.CAPTUREDDATA_RAW_REPOSITORY = string.Format(@"{0}\RAW\{1}\{2}", Utilities.CAPTUREDDATA_REPOSITORY, DateTime.Now.ToString("MMddyyyy"), Utilities.SessionReference());
-                        if (!System.IO.Directory.Exists(Utilities.CAPTUREDDATA_RAW_REPOSITORY)) System.IO.Directory.CreateDirectory(Utilities.CAPTUREDDATA_RAW_REPOSITORY);
                         Utilities.ResetSessionReferenceVariables();
+                        SaveToDraft2();
+                        //Utilities.CAPTUREDDATA_RAW_REPOSITORY = string.Format(@"{0}\RAW\{1}\{2}", Utilities.CAPTUREDDATA_REPOSITORY, DateTime.Now.ToString("MMddyyyy"), Utilities.SessionReference());
+                        //Utilities.CAPTUREDDATA_RAW_REPOSITORY = string.Format(@"{0}\RAW\{1}\{2}", Utilities.CAPTUREDDATA_REPOSITORY, DateTime.Now.ToString("MMddyyyy"), Utilities.CaptureSessionReference);
+                        //if (!System.IO.Directory.Exists(Utilities.CAPTUREDDATA_RAW_REPOSITORY)) System.IO.Directory.CreateDirectory(Utilities.CAPTUREDDATA_RAW_REPOSITORY);
+                        
                         //DCS_MemberInfo.Data.MemberDataXMLFile = string.Format(@"{0}\{1}", Class.Utilities.CAPTUREDDATA_RAW_REPOSITORY, Utilities.MemberDataXML_FileName);                        
                         if (Properties.Settings.Default.Photo_Module)
                         {
@@ -774,11 +787,15 @@ namespace DCS2015.Forms
                 _fc = null;                
 
                 int Cntr = Utilities.GetCaptureCntr() + 1;
-                Utilities.CreateCaptureCntr(Cntr); 
+                Utilities.CreateCaptureCntr(Cntr);
 
-                if (System.IO.File.Exists("DraftData")) { System.IO.File.Delete("DraftData"); }
-                if (System.IO.File.Exists("LastSessionReference")) { System.IO.File.Delete("LastSessionReference"); }
-                if (System.IO.File.Exists("OtherVariable")) { System.IO.File.Delete("OtherVariable"); }
+                DeleteFile("DraftData");
+                DeleteFile(Utilities.LastSessionReferenceFileName);
+                DeleteFile("OtherVariable");
+
+                //if (System.IO.File.Exists("DraftData")) { System.IO.File.Delete("DraftData"); }
+                //if (System.IO.File.Exists("LastSessionReference")) { System.IO.File.Delete("LastSessionReference"); }
+                //if (System.IO.File.Exists("OtherVariable")) { System.IO.File.Delete("OtherVariable"); }
 
                 switch (DCS_DataCapture.DataCapture.ClientName)
                 {
@@ -1392,7 +1409,7 @@ namespace DCS2015.Forms
             btnData.PerformClick();
 
             IsFormInitialLoad = false;
-            IsDataLoadedFromDraft = false;
+            Utilities.IsDataLoadedFromDraft = false;
         }
 
         private void SaveToDraft(Control _control, ref StringBuilder sb)
@@ -1449,7 +1466,10 @@ namespace DCS2015.Forms
             //bayambang only
             //sb.AppendLine(string.Format("{0}¿{1}¿{2}", "Field", _ucDataCapture.ContactPersonDetails, "ContactPersonDetails"));
             System.IO.File.WriteAllText("DraftData", sb.ToString());
-            if (!System.IO.File.Exists("LastSessionReference")) { System.IO.File.WriteAllText("LastSessionReference", DCS_MemberInfo.Data.SessionReference); }
+            
+            //revised by Edel on May2022
+            //if (!System.IO.File.Exists("LastSessionReference")) { System.IO.File.WriteAllText("LastSessionReference", DCS_MemberInfo.Data.SessionReference); }
+            System.IO.File.WriteAllText(Utilities.LastSessionReferenceFileName, DCS_MemberInfo.Data.SessionReference);
             //
         }
 
@@ -1483,7 +1503,7 @@ namespace DCS2015.Forms
             //sw.Close();
             //sw = null;
 
-            if (!System.IO.File.Exists("LastSessionReference")) { System.IO.File.WriteAllText("LastSessionReference", DCS_MemberInfo.Data.SessionReference); }
+            if (!System.IO.File.Exists(Utilities.LastSessionReferenceFileName)) { System.IO.File.WriteAllText(Utilities.LastSessionReferenceFileName, DCS_MemberInfo.Data.SessionReference); }
 
             //Properties.Settings.Default.LastSessionReference = Utilities.SessionReference();
             //Properties.Settings.Default.Save();
@@ -1703,8 +1723,12 @@ namespace DCS2015.Forms
                     return;
                 }
 
+                Utilities.IsDataLoadedFromDraft = true;
+                Utilities.CaptureSessionReference = System.IO.File.ReadAllText(Utilities.LastSessionReferenceFileName);
+                Utilities.ResetSessionReferenceVariables();
                 LoadDraftData(_ucDataCapture.Controls[0]);
-                IsDataLoadedFromDraft = true;
+                
+                BindFooterLabel();
             }            
         }
 
@@ -2231,7 +2255,8 @@ namespace DCS2015.Forms
         {
             try
             {
-                Utilities.AFPSLAI_SSC_FileName = string.Format(@"{0}\{1}", Utilities.CAPTUREDDATA_RAW_REPOSITORY, Utilities.SessionReference() + "_ssc.jpg");
+                //Utilities.AFPSLAI_SSC_FileName = string.Format(@"{0}\{1}", Utilities.CAPTUREDDATA_RAW_REPOSITORY, Utilities.SessionReference() + "_ssc.jpg");
+                Utilities.AFPSLAI_SSC_FileName = string.Format(@"{0}\{1}", Utilities.CAPTUREDDATA_RAW_REPOSITORY, Utilities.CaptureSessionReference + "_ssc.jpg");
                 //string outputFile = string.Format(@"{0}\{1}", @"D:\EDEL", "test_New.jpg");
                 //Utilities.AFPSLAI_SSC_FileName = outputFile;
                 System.Drawing.Printing.PreviewPageInfo[] ppi = ppc.GetPreviewPageInfo();
@@ -2429,6 +2454,16 @@ namespace DCS2015.Forms
         private void RunBat()
         {
             System.Diagnostics.Process.Start("restart_dcs.bat");
-        }       
+        }
+
+        private void DeleteFile(string file)
+        {
+            try
+            {
+                if (System.IO.File.Exists(file)) { System.IO.File.Delete(file); }                
+            }
+            catch { }
+        }
+
     }
 }

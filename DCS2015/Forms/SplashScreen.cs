@@ -79,8 +79,7 @@ namespace DCS2015.Forms
                             Properties.Settings.Default.UserRole = "ADMINISTRATOR";                            
                         } else Properties.Settings.Default.UserRole = accAfpslaiEmvLogIn.LogIN.msa.dcsUser.roleDesc;
 
-                        Properties.Settings.Default.Operator = accAfpslaiEmvLogIn.LogIN.msa.dcsUser.fullName.Trim();
-                        Properties.Settings.Default.UserRole = accAfpslaiEmvLogIn.LogIN.msa.dcsUser.roleDesc;
+                        Properties.Settings.Default.Operator = accAfpslaiEmvLogIn.LogIN.msa.dcsUser.fullName.Trim();                        
                         Properties.Settings.Default.Save();
                         DCS_MemberInfo.Data.UserRole = Properties.Settings.Default.UserRole;
                         DCS_MemberInfo.Data.OperatorID = Properties.Settings.Default.Operator;

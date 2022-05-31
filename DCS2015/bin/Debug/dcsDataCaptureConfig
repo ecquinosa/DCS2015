@@ -1,5 +1,5 @@
 {
-	"middleServerUrl": "https://localhost:44348",
+	"middleServerUrl": "http://http://10.130.66.12",
 	"apiKey": "eyJpdiI6IkgzRHhKd2VKVFpmUHZVSitKMVZlUHc9PSIsInZhbHVlIjoiTFMwcVZ0M0JLNVJrR1U0SEJEQWtCUT09IiwibWFjIjoiZTFjMGM0OGU3MmVmNzdkM2MyNmYwYjdjMGFhMTg0Njk4MjcyN2E5ZDM4ZjE0ZWUwZDFkZjUzNDU2ZDg3NDQxYyJ9",
 	"branchIssue": "AGUINALDO"
 }
