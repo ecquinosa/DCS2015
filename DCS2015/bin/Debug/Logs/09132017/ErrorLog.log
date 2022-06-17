@@ -1,8 +1,0 @@
-09/13/17 04:15:51 PM     Sagem(): Runtime catched error Exception while executing MorphoKit::CoderImpl::CoderImpl at .\src\MorphoKitCoder.cpp:123:
-Error 2: Error checking licence
-Additional information: Error while trying to check the license
-Internal error 10-79: Unknown license error
-09/13/17 04:16:22 PM     Sagem(): Runtime catched error Exception while executing MorphoKit::CoderImpl::CoderImpl at .\src\MorphoKitCoder.cpp:123:
-Error 2: Error checking licence
-Additional information: Error while trying to check the license
-Internal error 10-79: Unknown license error

@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DCS_FileTransfer", "DCS_Fil
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DCS_OfflineUsers", "DCS_OfflineUsers\DCS_OfflineUsers.csproj", "{3DD25639-9FFC-446C-A141-EE2EEC8939D0}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "AFPSLAI - Data Capture System", "AFPSLAI - Data Capture System\AFPSLAI - Data Capture System.vdproj", "{E9737222-9C6C-4368-A94F-0A1FE1BB20E4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -66,6 +68,12 @@ Global
 		{3DD25639-9FFC-446C-A141-EE2EEC8939D0}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{3DD25639-9FFC-446C-A141-EE2EEC8939D0}.Release|x86.ActiveCfg = Release|Any CPU
 		{3DD25639-9FFC-446C-A141-EE2EEC8939D0}.Release|x86.Build.0 = Release|Any CPU
+		{E9737222-9C6C-4368-A94F-0A1FE1BB20E4}.Debug|Any CPU.ActiveCfg = Debug
+		{E9737222-9C6C-4368-A94F-0A1FE1BB20E4}.Debug|Mixed Platforms.ActiveCfg = Debug
+		{E9737222-9C6C-4368-A94F-0A1FE1BB20E4}.Debug|x86.ActiveCfg = Debug
+		{E9737222-9C6C-4368-A94F-0A1FE1BB20E4}.Release|Any CPU.ActiveCfg = Release
+		{E9737222-9C6C-4368-A94F-0A1FE1BB20E4}.Release|Mixed Platforms.ActiveCfg = Release
+		{E9737222-9C6C-4368-A94F-0A1FE1BB20E4}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

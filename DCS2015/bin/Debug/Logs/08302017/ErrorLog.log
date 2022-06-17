@@ -1,8 +1,0 @@
-Init() Error 6
-08/30/17 03:28:51 PM     Convert_TO_ICAO(): Operation is not activated
-08/30/17 03:29:14 PM     CapturePhoto(): Could not find file 'Captured Data\RAW\08302017\StationName_20170725_121456_0001\StationName_20170725_121456_0001_Raw_Photo.jpg'.
-08/30/17 03:30:11 PM     CapturePhoto(): Could not find file 'Captured Data\RAW\08302017\StationName_20170725_121456_0001\StationName_20170725_121456_0001_Raw_Photo.jpg'.
-08/30/17 03:31:04 PM     CapturePhoto(): Could not find file 'Captured Data\RAW\08302017\StationName_20170725_121456_0001\StationName_20170725_121456_0001_Raw_Photo.jpg'.
-08/30/17 04:20:38 PM     CapturePhoto(): Parameter is not valid.
-08/30/17 05:10:18 PM     CapturePhoto(): File name cannot be null.
-Parameter name: sourceFileName

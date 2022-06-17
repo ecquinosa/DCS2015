@@ -38,7 +38,7 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>data-capture.ico</ApplicationIcon>
+    <ApplicationIcon>app.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -482,6 +482,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\DefaultBitmap_sigma.png" />
+    <Content Include="app.ico" />
     <Content Include="data-capture.ico" />
     <None Include="Resources\bak\left hand - middle blinking.gif" />
     <None Include="Resources\bak\left hand - pinky blinking.gif" />
