@@ -1,0 +1,4 @@
+Release notes:
+
+August 04, 2022
+- fix missing DataSource folder and DataFields file

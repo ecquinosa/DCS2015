@@ -296,3 +296,11 @@ C:\EDEL\Projects\DCS2015\DCS2015\obj\x86\Debug\DCS2015.csproj.CoreCompileInputs.
 C:\EDEL\Projects\DCS2015\DCS2015\obj\x86\Debug\DCS2015.csproj.CopyComplete
 C:\EDEL\Projects\DCS2015\DCS2015\obj\x86\Debug\DCS2015.exe
 C:\EDEL\Projects\DCS2015\DCS2015\obj\x86\Debug\DCS2015.pdb
+D:\WORK\Projects\DCS2015\DCS2015\bin\Debug\VIBlend.WinForms.Controls.dll
+D:\WORK\Projects\DCS2015\DCS2015\bin\Debug\VIBlend.WinForms.Utilities.dll
+D:\WORK\Projects\DCS2015\DCS2015\bin\Debug\VIBlend.WinForms.Controls.pdb
+D:\WORK\Projects\DCS2015\DCS2015\bin\Debug\VIBlend.WinForms.Controls.xml
+D:\WORK\Projects\DCS2015\DCS2015\bin\Debug\VIBlend.WinForms.Controls.dll.config
+D:\WORK\Projects\DCS2015\DCS2015\bin\Debug\VIBlend.WinForms.Utilities.pdb
+D:\WORK\Projects\DCS2015\DCS2015\bin\Debug\VIBlend.WinForms.Utilities.xml
+D:\WORK\Projects\DCS2015\DCS2015\bin\Debug\VIBlend.WinForms.Utilities.dll.config
